@@ -1,0 +1,16 @@
+
+object(X) :- fork(X).
+object(X) :- plate(X).
+
+isValid(X,Y) :- object(X), object(Y), X \== Y.
+
+near(X,Y) :- near(Y,X).
+%not_near(X,Y) :- not_near(Y,X).
+
+not_plate(X) :- object(X), not(plate(X)).
+not_fork(X) :- object(X), not(fork(X)).
+
+not_near(X,Y) :- object(X), object(Y), not(near(X,Y)).
+not_near(X,Y) :- object(X), object(Y), not(near(Y,X)).
+        
+    

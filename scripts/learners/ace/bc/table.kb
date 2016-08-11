@@ -1,0 +1,14536 @@
+begin(model(example1)).
+plate(4).
+fork(7).
+action(near, 7, 4).
+pos.
+end(model(example1)).
+
+begin(model(example2)).
+plate(4).
+fork(7).
+action(near, 7, 4).
+pos.
+end(model(example2)).
+
+begin(model(example3)).
+plate(4).
+fork(7).
+action(near, 4, 7).
+neg.
+end(model(example3)).
+
+begin(model(example4)).
+plate(4).
+fork(7).
+done.
+neg.
+end(model(example4)).
+
+begin(model(example5)).
+plate(4).
+fork(7).
+near(4, 7).
+near(7, 4).
+action(near, 7, 4).
+neg.
+end(model(example5)).
+
+begin(model(example6)).
+plate(4).
+fork(7).
+near(4, 7).
+near(7, 4).
+action(near, 4, 7).
+neg.
+end(model(example6)).
+
+begin(model(example7)).
+plate(4).
+fork(7).
+near(4, 7).
+near(7, 4).
+done.
+pos.
+end(model(example7)).
+
+begin(model(example8)).
+plate(4).
+fork(7).
+near(4, 7).
+near(7, 4).
+done.
+pos.
+end(model(example8)).
+
+begin(model(example9)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 0, 1).
+neg.
+end(model(example9)).
+
+begin(model(example10)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 4, 7).
+neg.
+end(model(example10)).
+
+begin(model(example11)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 2, 6).
+neg.
+end(model(example11)).
+
+begin(model(example12)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 4, 1).
+neg.
+end(model(example12)).
+
+begin(model(example13)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 4, 5).
+neg.
+end(model(example13)).
+
+begin(model(example14)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 6, 4).
+neg.
+end(model(example14)).
+
+begin(model(example15)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 5, 1).
+neg.
+end(model(example15)).
+
+begin(model(example16)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+done.
+neg.
+end(model(example16)).
+
+begin(model(example17)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 2, 0).
+neg.
+end(model(example17)).
+
+begin(model(example18)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 6, 2).
+neg.
+end(model(example18)).
+
+begin(model(example19)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 6, 0).
+neg.
+end(model(example19)).
+
+begin(model(example20)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 5, 7).
+neg.
+end(model(example20)).
+
+begin(model(example21)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 7, 1).
+neg.
+end(model(example21)).
+
+begin(model(example22)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 7, 5).
+neg.
+end(model(example22)).
+
+begin(model(example23)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 2, 4).
+neg.
+end(model(example23)).
+
+begin(model(example24)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 1, 4).
+neg.
+end(model(example24)).
+
+begin(model(example25)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 0, 6).
+neg.
+end(model(example25)).
+
+begin(model(example26)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 1, 0).
+neg.
+end(model(example26)).
+
+begin(model(example27)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 1, 6).
+neg.
+end(model(example27)).
+
+begin(model(example28)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 2, 1).
+neg.
+end(model(example28)).
+
+begin(model(example29)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 1, 2).
+neg.
+end(model(example29)).
+
+begin(model(example30)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 4, 2).
+neg.
+end(model(example30)).
+
+begin(model(example31)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 0, 4).
+neg.
+end(model(example31)).
+
+begin(model(example32)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 0, 2).
+neg.
+end(model(example32)).
+
+begin(model(example33)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 4, 0).
+neg.
+end(model(example33)).
+
+begin(model(example34)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 4, 6).
+neg.
+end(model(example34)).
+
+begin(model(example35)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 6, 5).
+neg.
+end(model(example35)).
+
+begin(model(example36)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 6, 1).
+neg.
+end(model(example36)).
+
+begin(model(example37)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 6, 7).
+neg.
+end(model(example37)).
+
+begin(model(example38)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 5, 0).
+neg.
+end(model(example38)).
+
+begin(model(example39)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 5, 4).
+neg.
+end(model(example39)).
+
+begin(model(example40)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 5, 2).
+neg.
+end(model(example40)).
+
+begin(model(example41)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 7, 2).
+neg.
+end(model(example41)).
+
+begin(model(example42)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 5, 6).
+neg.
+end(model(example42)).
+
+begin(model(example43)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 2, 5).
+neg.
+end(model(example43)).
+
+begin(model(example44)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 7, 0).
+neg.
+end(model(example44)).
+
+begin(model(example45)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 2, 7).
+neg.
+end(model(example45)).
+
+begin(model(example46)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 1, 5).
+neg.
+end(model(example46)).
+
+begin(model(example47)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 7, 6).
+neg.
+end(model(example47)).
+
+begin(model(example48)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 7, 4).
+pos.
+end(model(example48)).
+
+begin(model(example49)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 7, 4).
+pos.
+end(model(example49)).
+
+begin(model(example50)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 7, 4).
+pos.
+end(model(example50)).
+
+begin(model(example51)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 7, 4).
+pos.
+end(model(example51)).
+
+begin(model(example52)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 7, 4).
+pos.
+end(model(example52)).
+
+begin(model(example53)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 7, 4).
+pos.
+end(model(example53)).
+
+begin(model(example54)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 7, 4).
+pos.
+end(model(example54)).
+
+begin(model(example55)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 7, 4).
+pos.
+end(model(example55)).
+
+begin(model(example56)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 7, 4).
+pos.
+end(model(example56)).
+
+begin(model(example57)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 7, 4).
+pos.
+end(model(example57)).
+
+begin(model(example58)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 7, 4).
+pos.
+end(model(example58)).
+
+begin(model(example59)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 7, 4).
+pos.
+end(model(example59)).
+
+begin(model(example60)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 7, 4).
+pos.
+end(model(example60)).
+
+begin(model(example61)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 7, 4).
+pos.
+end(model(example61)).
+
+begin(model(example62)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 7, 4).
+pos.
+end(model(example62)).
+
+begin(model(example63)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 7, 4).
+pos.
+end(model(example63)).
+
+begin(model(example64)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 7, 4).
+pos.
+end(model(example64)).
+
+begin(model(example65)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 7, 4).
+pos.
+end(model(example65)).
+
+begin(model(example66)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 7, 4).
+pos.
+end(model(example66)).
+
+begin(model(example67)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 7, 4).
+pos.
+end(model(example67)).
+
+begin(model(example68)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 7, 4).
+pos.
+end(model(example68)).
+
+begin(model(example69)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 7, 4).
+pos.
+end(model(example69)).
+
+begin(model(example70)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 7, 4).
+pos.
+end(model(example70)).
+
+begin(model(example71)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 7, 4).
+pos.
+end(model(example71)).
+
+begin(model(example72)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 7, 4).
+pos.
+end(model(example72)).
+
+begin(model(example73)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 7, 4).
+pos.
+end(model(example73)).
+
+begin(model(example74)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 7, 4).
+pos.
+end(model(example74)).
+
+begin(model(example75)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 7, 4).
+pos.
+end(model(example75)).
+
+begin(model(example76)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 7, 4).
+pos.
+end(model(example76)).
+
+begin(model(example77)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 7, 4).
+pos.
+end(model(example77)).
+
+begin(model(example78)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 7, 4).
+pos.
+end(model(example78)).
+
+begin(model(example79)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 7, 4).
+pos.
+end(model(example79)).
+
+begin(model(example80)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 7, 4).
+pos.
+end(model(example80)).
+
+begin(model(example81)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 7, 4).
+pos.
+end(model(example81)).
+
+begin(model(example82)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 7, 4).
+pos.
+end(model(example82)).
+
+begin(model(example83)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 7, 4).
+pos.
+end(model(example83)).
+
+begin(model(example84)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 7, 4).
+pos.
+end(model(example84)).
+
+begin(model(example85)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 7, 4).
+pos.
+end(model(example85)).
+
+begin(model(example86)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 7, 4).
+pos.
+end(model(example86)).
+
+begin(model(example87)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 7, 4).
+pos.
+end(model(example87)).
+
+begin(model(example88)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 7, 4).
+pos.
+end(model(example88)).
+
+begin(model(example89)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 7, 4).
+pos.
+end(model(example89)).
+
+begin(model(example90)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 0, 7).
+neg.
+end(model(example90)).
+
+begin(model(example91)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 1, 7).
+neg.
+end(model(example91)).
+
+begin(model(example92)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(2, 7).
+near(4, 0).
+near(5, 6).
+near(6, 5).
+near(7, 2).
+action(near, 0, 5).
+neg.
+end(model(example92)).
+
+begin(model(example93)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 0, 1).
+neg.
+end(model(example93)).
+
+begin(model(example94)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 4, 7).
+neg.
+end(model(example94)).
+
+begin(model(example95)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 2, 6).
+neg.
+end(model(example95)).
+
+begin(model(example96)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 4, 1).
+neg.
+end(model(example96)).
+
+begin(model(example97)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 4, 5).
+neg.
+end(model(example97)).
+
+begin(model(example98)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 6, 4).
+neg.
+end(model(example98)).
+
+begin(model(example99)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 5, 1).
+neg.
+end(model(example99)).
+
+begin(model(example100)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+done.
+neg.
+end(model(example100)).
+
+begin(model(example101)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 2, 0).
+neg.
+end(model(example101)).
+
+begin(model(example102)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 6, 2).
+neg.
+end(model(example102)).
+
+begin(model(example103)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 6, 0).
+neg.
+end(model(example103)).
+
+begin(model(example104)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 5, 7).
+neg.
+end(model(example104)).
+
+begin(model(example105)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 7, 1).
+neg.
+end(model(example105)).
+
+begin(model(example106)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 7, 5).
+neg.
+end(model(example106)).
+
+begin(model(example107)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 2, 4).
+neg.
+end(model(example107)).
+
+begin(model(example108)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 4).
+neg.
+end(model(example108)).
+
+begin(model(example109)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 0, 6).
+neg.
+end(model(example109)).
+
+begin(model(example110)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 0).
+neg.
+end(model(example110)).
+
+begin(model(example111)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 6).
+neg.
+end(model(example111)).
+
+begin(model(example112)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 2, 1).
+neg.
+end(model(example112)).
+
+begin(model(example113)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 2).
+neg.
+end(model(example113)).
+
+begin(model(example114)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 4, 2).
+neg.
+end(model(example114)).
+
+begin(model(example115)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 0, 4).
+neg.
+end(model(example115)).
+
+begin(model(example116)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 0, 2).
+neg.
+end(model(example116)).
+
+begin(model(example117)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 4, 0).
+neg.
+end(model(example117)).
+
+begin(model(example118)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 4, 6).
+neg.
+end(model(example118)).
+
+begin(model(example119)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 6, 5).
+neg.
+end(model(example119)).
+
+begin(model(example120)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 6, 1).
+neg.
+end(model(example120)).
+
+begin(model(example121)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 6, 7).
+neg.
+end(model(example121)).
+
+begin(model(example122)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 5, 0).
+neg.
+end(model(example122)).
+
+begin(model(example123)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 5, 4).
+neg.
+end(model(example123)).
+
+begin(model(example124)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 5, 2).
+neg.
+end(model(example124)).
+
+begin(model(example125)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 7, 2).
+neg.
+end(model(example125)).
+
+begin(model(example126)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 5, 6).
+neg.
+end(model(example126)).
+
+begin(model(example127)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 2, 5).
+neg.
+end(model(example127)).
+
+begin(model(example128)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 7, 0).
+neg.
+end(model(example128)).
+
+begin(model(example129)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 2, 7).
+neg.
+end(model(example129)).
+
+begin(model(example130)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example130)).
+
+begin(model(example131)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example131)).
+
+begin(model(example132)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example132)).
+
+begin(model(example133)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example133)).
+
+begin(model(example134)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example134)).
+
+begin(model(example135)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example135)).
+
+begin(model(example136)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example136)).
+
+begin(model(example137)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example137)).
+
+begin(model(example138)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example138)).
+
+begin(model(example139)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example139)).
+
+begin(model(example140)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example140)).
+
+begin(model(example141)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example141)).
+
+begin(model(example142)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example142)).
+
+begin(model(example143)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example143)).
+
+begin(model(example144)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example144)).
+
+begin(model(example145)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example145)).
+
+begin(model(example146)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example146)).
+
+begin(model(example147)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example147)).
+
+begin(model(example148)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example148)).
+
+begin(model(example149)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example149)).
+
+begin(model(example150)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example150)).
+
+begin(model(example151)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example151)).
+
+begin(model(example152)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example152)).
+
+begin(model(example153)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example153)).
+
+begin(model(example154)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example154)).
+
+begin(model(example155)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example155)).
+
+begin(model(example156)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example156)).
+
+begin(model(example157)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example157)).
+
+begin(model(example158)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example158)).
+
+begin(model(example159)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example159)).
+
+begin(model(example160)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example160)).
+
+begin(model(example161)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example161)).
+
+begin(model(example162)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example162)).
+
+begin(model(example163)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example163)).
+
+begin(model(example164)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example164)).
+
+begin(model(example165)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example165)).
+
+begin(model(example166)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example166)).
+
+begin(model(example167)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example167)).
+
+begin(model(example168)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example168)).
+
+begin(model(example169)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example169)).
+
+begin(model(example170)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example170)).
+
+begin(model(example171)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example171)).
+
+begin(model(example172)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 7, 6).
+neg.
+end(model(example172)).
+
+begin(model(example173)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 7, 4).
+neg.
+end(model(example173)).
+
+begin(model(example174)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 0, 7).
+neg.
+end(model(example174)).
+
+begin(model(example175)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 7).
+neg.
+end(model(example175)).
+
+begin(model(example176)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(4, 0).
+near(4, 7).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 0, 5).
+neg.
+end(model(example176)).
+
+begin(model(example177)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 0, 1).
+neg.
+end(model(example177)).
+
+begin(model(example178)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 4, 7).
+neg.
+end(model(example178)).
+
+begin(model(example179)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 2, 6).
+neg.
+end(model(example179)).
+
+begin(model(example180)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 4, 1).
+neg.
+end(model(example180)).
+
+begin(model(example181)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 4, 5).
+neg.
+end(model(example181)).
+
+begin(model(example182)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 6, 4).
+neg.
+end(model(example182)).
+
+begin(model(example183)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 5, 1).
+neg.
+end(model(example183)).
+
+begin(model(example184)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+done.
+pos.
+end(model(example184)).
+
+begin(model(example185)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+done.
+pos.
+end(model(example185)).
+
+begin(model(example186)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+done.
+pos.
+end(model(example186)).
+
+begin(model(example187)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+done.
+pos.
+end(model(example187)).
+
+begin(model(example188)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+done.
+pos.
+end(model(example188)).
+
+begin(model(example189)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+done.
+pos.
+end(model(example189)).
+
+begin(model(example190)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+done.
+pos.
+end(model(example190)).
+
+begin(model(example191)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+done.
+pos.
+end(model(example191)).
+
+begin(model(example192)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+done.
+pos.
+end(model(example192)).
+
+begin(model(example193)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+done.
+pos.
+end(model(example193)).
+
+begin(model(example194)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+done.
+pos.
+end(model(example194)).
+
+begin(model(example195)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+done.
+pos.
+end(model(example195)).
+
+begin(model(example196)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+done.
+pos.
+end(model(example196)).
+
+begin(model(example197)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+done.
+pos.
+end(model(example197)).
+
+begin(model(example198)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+done.
+pos.
+end(model(example198)).
+
+begin(model(example199)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+done.
+pos.
+end(model(example199)).
+
+begin(model(example200)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+done.
+pos.
+end(model(example200)).
+
+begin(model(example201)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+done.
+pos.
+end(model(example201)).
+
+begin(model(example202)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+done.
+pos.
+end(model(example202)).
+
+begin(model(example203)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+done.
+pos.
+end(model(example203)).
+
+begin(model(example204)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+done.
+pos.
+end(model(example204)).
+
+begin(model(example205)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+done.
+pos.
+end(model(example205)).
+
+begin(model(example206)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+done.
+pos.
+end(model(example206)).
+
+begin(model(example207)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+done.
+pos.
+end(model(example207)).
+
+begin(model(example208)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+done.
+pos.
+end(model(example208)).
+
+begin(model(example209)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+done.
+pos.
+end(model(example209)).
+
+begin(model(example210)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+done.
+pos.
+end(model(example210)).
+
+begin(model(example211)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+done.
+pos.
+end(model(example211)).
+
+begin(model(example212)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+done.
+pos.
+end(model(example212)).
+
+begin(model(example213)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+done.
+pos.
+end(model(example213)).
+
+begin(model(example214)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+done.
+pos.
+end(model(example214)).
+
+begin(model(example215)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+done.
+pos.
+end(model(example215)).
+
+begin(model(example216)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+done.
+pos.
+end(model(example216)).
+
+begin(model(example217)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+done.
+pos.
+end(model(example217)).
+
+begin(model(example218)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+done.
+pos.
+end(model(example218)).
+
+begin(model(example219)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+done.
+pos.
+end(model(example219)).
+
+begin(model(example220)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+done.
+pos.
+end(model(example220)).
+
+begin(model(example221)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+done.
+pos.
+end(model(example221)).
+
+begin(model(example222)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+done.
+pos.
+end(model(example222)).
+
+begin(model(example223)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+done.
+pos.
+end(model(example223)).
+
+begin(model(example224)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+done.
+pos.
+end(model(example224)).
+
+begin(model(example225)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+done.
+pos.
+end(model(example225)).
+
+begin(model(example226)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 2, 0).
+neg.
+end(model(example226)).
+
+begin(model(example227)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 6, 2).
+neg.
+end(model(example227)).
+
+begin(model(example228)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 6, 0).
+neg.
+end(model(example228)).
+
+begin(model(example229)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 5, 7).
+neg.
+end(model(example229)).
+
+begin(model(example230)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 7, 1).
+neg.
+end(model(example230)).
+
+begin(model(example231)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 7, 5).
+neg.
+end(model(example231)).
+
+begin(model(example232)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 2, 4).
+neg.
+end(model(example232)).
+
+begin(model(example233)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 4).
+neg.
+end(model(example233)).
+
+begin(model(example234)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 0, 6).
+neg.
+end(model(example234)).
+
+begin(model(example235)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 0).
+neg.
+end(model(example235)).
+
+begin(model(example236)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 6).
+neg.
+end(model(example236)).
+
+begin(model(example237)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 2, 1).
+neg.
+end(model(example237)).
+
+begin(model(example238)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 2).
+neg.
+end(model(example238)).
+
+begin(model(example239)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 4, 2).
+neg.
+end(model(example239)).
+
+begin(model(example240)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 0, 4).
+neg.
+end(model(example240)).
+
+begin(model(example241)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 0, 2).
+neg.
+end(model(example241)).
+
+begin(model(example242)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 4, 0).
+neg.
+end(model(example242)).
+
+begin(model(example243)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 4, 6).
+neg.
+end(model(example243)).
+
+begin(model(example244)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 6, 5).
+neg.
+end(model(example244)).
+
+begin(model(example245)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 6, 1).
+neg.
+end(model(example245)).
+
+begin(model(example246)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 6, 7).
+neg.
+end(model(example246)).
+
+begin(model(example247)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 5, 0).
+neg.
+end(model(example247)).
+
+begin(model(example248)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 5, 4).
+neg.
+end(model(example248)).
+
+begin(model(example249)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 5, 2).
+neg.
+end(model(example249)).
+
+begin(model(example250)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 7, 2).
+neg.
+end(model(example250)).
+
+begin(model(example251)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 5, 6).
+neg.
+end(model(example251)).
+
+begin(model(example252)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 2, 5).
+neg.
+end(model(example252)).
+
+begin(model(example253)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 7, 0).
+neg.
+end(model(example253)).
+
+begin(model(example254)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 2, 7).
+neg.
+end(model(example254)).
+
+begin(model(example255)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+neg.
+end(model(example255)).
+
+begin(model(example256)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 7, 6).
+neg.
+end(model(example256)).
+
+begin(model(example257)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 7, 4).
+neg.
+end(model(example257)).
+
+begin(model(example258)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 0, 7).
+neg.
+end(model(example258)).
+
+begin(model(example259)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 1, 7).
+neg.
+end(model(example259)).
+
+begin(model(example260)).
+cup(0).
+fork(1).
+cup(2).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+near(0, 4).
+near(1, 5).
+near(4, 0).
+near(4, 7).
+near(5, 1).
+near(5, 6).
+near(6, 5).
+near(7, 4).
+action(near, 0, 5).
+neg.
+end(model(example260)).
+
+begin(model(example261)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 4, 7).
+neg.
+end(model(example261)).
+
+begin(model(example262)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 3, 1).
+neg.
+end(model(example262)).
+
+begin(model(example263)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 4, 1).
+neg.
+end(model(example263)).
+
+begin(model(example264)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 6, 8).
+neg.
+end(model(example264)).
+
+begin(model(example265)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 4, 5).
+neg.
+end(model(example265)).
+
+begin(model(example266)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 6, 4).
+neg.
+end(model(example266)).
+
+begin(model(example267)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 5, 1).
+neg.
+end(model(example267)).
+
+begin(model(example268)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+done.
+neg.
+end(model(example268)).
+
+begin(model(example269)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 1, 4).
+neg.
+end(model(example269)).
+
+begin(model(example270)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 7, 3).
+neg.
+end(model(example270)).
+
+begin(model(example271)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 1, 8).
+neg.
+end(model(example271)).
+
+begin(model(example272)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 5, 3).
+neg.
+end(model(example272)).
+
+begin(model(example273)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 5, 7).
+neg.
+end(model(example273)).
+
+begin(model(example274)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 7, 1).
+neg.
+end(model(example274)).
+
+begin(model(example275)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 7, 5).
+neg.
+end(model(example275)).
+
+begin(model(example276)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 8, 7).
+neg.
+end(model(example276)).
+
+begin(model(example277)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 4, 8).
+neg.
+end(model(example277)).
+
+begin(model(example278)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 8, 3).
+neg.
+end(model(example278)).
+
+begin(model(example279)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 1, 6).
+neg.
+end(model(example279)).
+
+begin(model(example280)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 3, 6).
+neg.
+end(model(example280)).
+
+begin(model(example281)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 8, 1).
+neg.
+end(model(example281)).
+
+begin(model(example282)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 8, 5).
+neg.
+end(model(example282)).
+
+begin(model(example283)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 3, 4).
+neg.
+end(model(example283)).
+
+begin(model(example284)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 1, 7).
+neg.
+end(model(example284)).
+
+begin(model(example285)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 7, 8).
+neg.
+end(model(example285)).
+
+begin(model(example286)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 4, 6).
+neg.
+end(model(example286)).
+
+begin(model(example287)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 6, 5).
+neg.
+end(model(example287)).
+
+begin(model(example288)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 6, 1).
+neg.
+end(model(example288)).
+
+begin(model(example289)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 6, 7).
+neg.
+end(model(example289)).
+
+begin(model(example290)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 6, 3).
+neg.
+end(model(example290)).
+
+begin(model(example291)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 5, 4).
+neg.
+end(model(example291)).
+
+begin(model(example292)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 5, 6).
+neg.
+end(model(example292)).
+
+begin(model(example293)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 7, 6).
+neg.
+end(model(example293)).
+
+begin(model(example294)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 3, 8).
+neg.
+end(model(example294)).
+
+begin(model(example295)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 7, 4).
+pos.
+end(model(example295)).
+
+begin(model(example296)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 7, 4).
+pos.
+end(model(example296)).
+
+begin(model(example297)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 7, 4).
+pos.
+end(model(example297)).
+
+begin(model(example298)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 7, 4).
+pos.
+end(model(example298)).
+
+begin(model(example299)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 7, 4).
+pos.
+end(model(example299)).
+
+begin(model(example300)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 7, 4).
+pos.
+end(model(example300)).
+
+begin(model(example301)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 7, 4).
+pos.
+end(model(example301)).
+
+begin(model(example302)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 7, 4).
+pos.
+end(model(example302)).
+
+begin(model(example303)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 7, 4).
+pos.
+end(model(example303)).
+
+begin(model(example304)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 7, 4).
+pos.
+end(model(example304)).
+
+begin(model(example305)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 7, 4).
+pos.
+end(model(example305)).
+
+begin(model(example306)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 7, 4).
+pos.
+end(model(example306)).
+
+begin(model(example307)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 7, 4).
+pos.
+end(model(example307)).
+
+begin(model(example308)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 7, 4).
+pos.
+end(model(example308)).
+
+begin(model(example309)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 7, 4).
+pos.
+end(model(example309)).
+
+begin(model(example310)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 7, 4).
+pos.
+end(model(example310)).
+
+begin(model(example311)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 7, 4).
+pos.
+end(model(example311)).
+
+begin(model(example312)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 7, 4).
+pos.
+end(model(example312)).
+
+begin(model(example313)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 7, 4).
+pos.
+end(model(example313)).
+
+begin(model(example314)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 7, 4).
+pos.
+end(model(example314)).
+
+begin(model(example315)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 7, 4).
+pos.
+end(model(example315)).
+
+begin(model(example316)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 7, 4).
+pos.
+end(model(example316)).
+
+begin(model(example317)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 7, 4).
+pos.
+end(model(example317)).
+
+begin(model(example318)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 7, 4).
+pos.
+end(model(example318)).
+
+begin(model(example319)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 7, 4).
+pos.
+end(model(example319)).
+
+begin(model(example320)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 7, 4).
+pos.
+end(model(example320)).
+
+begin(model(example321)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 7, 4).
+pos.
+end(model(example321)).
+
+begin(model(example322)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 7, 4).
+pos.
+end(model(example322)).
+
+begin(model(example323)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 7, 4).
+pos.
+end(model(example323)).
+
+begin(model(example324)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 7, 4).
+pos.
+end(model(example324)).
+
+begin(model(example325)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 7, 4).
+pos.
+end(model(example325)).
+
+begin(model(example326)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 7, 4).
+pos.
+end(model(example326)).
+
+begin(model(example327)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 7, 4).
+pos.
+end(model(example327)).
+
+begin(model(example328)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 7, 4).
+pos.
+end(model(example328)).
+
+begin(model(example329)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 7, 4).
+pos.
+end(model(example329)).
+
+begin(model(example330)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 7, 4).
+pos.
+end(model(example330)).
+
+begin(model(example331)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 7, 4).
+pos.
+end(model(example331)).
+
+begin(model(example332)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 7, 4).
+pos.
+end(model(example332)).
+
+begin(model(example333)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 7, 4).
+pos.
+end(model(example333)).
+
+begin(model(example334)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 7, 4).
+pos.
+end(model(example334)).
+
+begin(model(example335)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 7, 4).
+pos.
+end(model(example335)).
+
+begin(model(example336)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 7, 4).
+pos.
+end(model(example336)).
+
+begin(model(example337)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 1, 5).
+neg.
+end(model(example337)).
+
+begin(model(example338)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 5, 8).
+neg.
+end(model(example338)).
+
+begin(model(example339)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 8, 6).
+neg.
+end(model(example339)).
+
+begin(model(example340)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 3, 7).
+neg.
+end(model(example340)).
+
+begin(model(example341)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 8, 4).
+neg.
+end(model(example341)).
+
+begin(model(example342)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 1, 3).
+neg.
+end(model(example342)).
+
+begin(model(example343)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 4, 3).
+neg.
+end(model(example343)).
+
+begin(model(example344)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 7).
+near(4, 5).
+near(4, 6).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 1).
+action(near, 3, 5).
+neg.
+end(model(example344)).
+
+begin(model(example345)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 4, 7).
+neg.
+end(model(example345)).
+
+begin(model(example346)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 1).
+neg.
+end(model(example346)).
+
+begin(model(example347)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 4, 1).
+neg.
+end(model(example347)).
+
+begin(model(example348)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 6, 8).
+neg.
+end(model(example348)).
+
+begin(model(example349)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 4, 5).
+neg.
+end(model(example349)).
+
+begin(model(example350)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 6, 4).
+neg.
+end(model(example350)).
+
+begin(model(example351)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 5, 1).
+neg.
+end(model(example351)).
+
+begin(model(example352)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+done.
+neg.
+end(model(example352)).
+
+begin(model(example353)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 4).
+neg.
+end(model(example353)).
+
+begin(model(example354)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 7, 3).
+neg.
+end(model(example354)).
+
+begin(model(example355)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 8).
+neg.
+end(model(example355)).
+
+begin(model(example356)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 5, 3).
+neg.
+end(model(example356)).
+
+begin(model(example357)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 5, 7).
+neg.
+end(model(example357)).
+
+begin(model(example358)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 7, 1).
+neg.
+end(model(example358)).
+
+begin(model(example359)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 7, 5).
+neg.
+end(model(example359)).
+
+begin(model(example360)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 8, 7).
+neg.
+end(model(example360)).
+
+begin(model(example361)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 4, 8).
+neg.
+end(model(example361)).
+
+begin(model(example362)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 8, 3).
+neg.
+end(model(example362)).
+
+begin(model(example363)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 6).
+neg.
+end(model(example363)).
+
+begin(model(example364)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 6).
+neg.
+end(model(example364)).
+
+begin(model(example365)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 8, 1).
+neg.
+end(model(example365)).
+
+begin(model(example366)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 8, 5).
+neg.
+end(model(example366)).
+
+begin(model(example367)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 4).
+neg.
+end(model(example367)).
+
+begin(model(example368)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 7).
+neg.
+end(model(example368)).
+
+begin(model(example369)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 7, 8).
+neg.
+end(model(example369)).
+
+begin(model(example370)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 4, 6).
+neg.
+end(model(example370)).
+
+begin(model(example371)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 6, 5).
+neg.
+end(model(example371)).
+
+begin(model(example372)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 6, 1).
+neg.
+end(model(example372)).
+
+begin(model(example373)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 6, 7).
+neg.
+end(model(example373)).
+
+begin(model(example374)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 6, 3).
+neg.
+end(model(example374)).
+
+begin(model(example375)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 5, 4).
+neg.
+end(model(example375)).
+
+begin(model(example376)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 5, 6).
+neg.
+end(model(example376)).
+
+begin(model(example377)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 7, 6).
+neg.
+end(model(example377)).
+
+begin(model(example378)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 8).
+neg.
+end(model(example378)).
+
+begin(model(example379)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 7, 4).
+neg.
+end(model(example379)).
+
+begin(model(example380)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example380)).
+
+begin(model(example381)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example381)).
+
+begin(model(example382)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example382)).
+
+begin(model(example383)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example383)).
+
+begin(model(example384)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example384)).
+
+begin(model(example385)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example385)).
+
+begin(model(example386)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example386)).
+
+begin(model(example387)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example387)).
+
+begin(model(example388)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example388)).
+
+begin(model(example389)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example389)).
+
+begin(model(example390)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example390)).
+
+begin(model(example391)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example391)).
+
+begin(model(example392)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example392)).
+
+begin(model(example393)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example393)).
+
+begin(model(example394)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example394)).
+
+begin(model(example395)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example395)).
+
+begin(model(example396)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example396)).
+
+begin(model(example397)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example397)).
+
+begin(model(example398)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example398)).
+
+begin(model(example399)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example399)).
+
+begin(model(example400)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example400)).
+
+begin(model(example401)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example401)).
+
+begin(model(example402)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example402)).
+
+begin(model(example403)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example403)).
+
+begin(model(example404)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example404)).
+
+begin(model(example405)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example405)).
+
+begin(model(example406)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example406)).
+
+begin(model(example407)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example407)).
+
+begin(model(example408)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example408)).
+
+begin(model(example409)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example409)).
+
+begin(model(example410)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example410)).
+
+begin(model(example411)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example411)).
+
+begin(model(example412)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example412)).
+
+begin(model(example413)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example413)).
+
+begin(model(example414)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example414)).
+
+begin(model(example415)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example415)).
+
+begin(model(example416)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example416)).
+
+begin(model(example417)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example417)).
+
+begin(model(example418)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example418)).
+
+begin(model(example419)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example419)).
+
+begin(model(example420)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example420)).
+
+begin(model(example421)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+pos.
+end(model(example421)).
+
+begin(model(example422)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 5, 8).
+neg.
+end(model(example422)).
+
+begin(model(example423)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 8, 6).
+neg.
+end(model(example423)).
+
+begin(model(example424)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 7).
+neg.
+end(model(example424)).
+
+begin(model(example425)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 8, 4).
+neg.
+end(model(example425)).
+
+begin(model(example426)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 3).
+neg.
+end(model(example426)).
+
+begin(model(example427)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 4, 3).
+neg.
+end(model(example427)).
+
+begin(model(example428)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 5).
+neg.
+end(model(example428)).
+
+begin(model(example429)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 4, 7).
+neg.
+end(model(example429)).
+
+begin(model(example430)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 1).
+neg.
+end(model(example430)).
+
+begin(model(example431)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 4, 1).
+neg.
+end(model(example431)).
+
+begin(model(example432)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 6, 8).
+neg.
+end(model(example432)).
+
+begin(model(example433)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 4, 5).
+neg.
+end(model(example433)).
+
+begin(model(example434)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 6, 4).
+neg.
+end(model(example434)).
+
+begin(model(example435)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 5, 1).
+neg.
+end(model(example435)).
+
+begin(model(example436)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+done.
+neg.
+end(model(example436)).
+
+begin(model(example437)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 4).
+neg.
+end(model(example437)).
+
+begin(model(example438)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 7, 3).
+neg.
+end(model(example438)).
+
+begin(model(example439)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 8).
+neg.
+end(model(example439)).
+
+begin(model(example440)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 5, 3).
+neg.
+end(model(example440)).
+
+begin(model(example441)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 5, 7).
+neg.
+end(model(example441)).
+
+begin(model(example442)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 7, 1).
+neg.
+end(model(example442)).
+
+begin(model(example443)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 7, 5).
+neg.
+end(model(example443)).
+
+begin(model(example444)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 8, 7).
+neg.
+end(model(example444)).
+
+begin(model(example445)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 4, 8).
+neg.
+end(model(example445)).
+
+begin(model(example446)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 8, 3).
+neg.
+end(model(example446)).
+
+begin(model(example447)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 6).
+neg.
+end(model(example447)).
+
+begin(model(example448)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 6).
+neg.
+end(model(example448)).
+
+begin(model(example449)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 8, 1).
+neg.
+end(model(example449)).
+
+begin(model(example450)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 8, 5).
+neg.
+end(model(example450)).
+
+begin(model(example451)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 4).
+neg.
+end(model(example451)).
+
+begin(model(example452)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 7).
+neg.
+end(model(example452)).
+
+begin(model(example453)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 7, 8).
+neg.
+end(model(example453)).
+
+begin(model(example454)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 4, 6).
+neg.
+end(model(example454)).
+
+begin(model(example455)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 6, 5).
+neg.
+end(model(example455)).
+
+begin(model(example456)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 6, 1).
+neg.
+end(model(example456)).
+
+begin(model(example457)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 6, 7).
+neg.
+end(model(example457)).
+
+begin(model(example458)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 6, 3).
+neg.
+end(model(example458)).
+
+begin(model(example459)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 5, 4).
+neg.
+end(model(example459)).
+
+begin(model(example460)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 5, 6).
+neg.
+end(model(example460)).
+
+begin(model(example461)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 7, 6).
+neg.
+end(model(example461)).
+
+begin(model(example462)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 8).
+pos.
+end(model(example462)).
+
+begin(model(example463)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 8).
+pos.
+end(model(example463)).
+
+begin(model(example464)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 8).
+pos.
+end(model(example464)).
+
+begin(model(example465)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 8).
+pos.
+end(model(example465)).
+
+begin(model(example466)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 8).
+pos.
+end(model(example466)).
+
+begin(model(example467)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 8).
+pos.
+end(model(example467)).
+
+begin(model(example468)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 8).
+pos.
+end(model(example468)).
+
+begin(model(example469)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 8).
+pos.
+end(model(example469)).
+
+begin(model(example470)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 8).
+pos.
+end(model(example470)).
+
+begin(model(example471)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 8).
+pos.
+end(model(example471)).
+
+begin(model(example472)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 8).
+pos.
+end(model(example472)).
+
+begin(model(example473)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 8).
+pos.
+end(model(example473)).
+
+begin(model(example474)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 8).
+pos.
+end(model(example474)).
+
+begin(model(example475)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 8).
+pos.
+end(model(example475)).
+
+begin(model(example476)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 8).
+pos.
+end(model(example476)).
+
+begin(model(example477)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 8).
+pos.
+end(model(example477)).
+
+begin(model(example478)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 8).
+pos.
+end(model(example478)).
+
+begin(model(example479)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 8).
+pos.
+end(model(example479)).
+
+begin(model(example480)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 8).
+pos.
+end(model(example480)).
+
+begin(model(example481)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 8).
+pos.
+end(model(example481)).
+
+begin(model(example482)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 8).
+pos.
+end(model(example482)).
+
+begin(model(example483)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 8).
+pos.
+end(model(example483)).
+
+begin(model(example484)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 8).
+pos.
+end(model(example484)).
+
+begin(model(example485)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 8).
+pos.
+end(model(example485)).
+
+begin(model(example486)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 8).
+pos.
+end(model(example486)).
+
+begin(model(example487)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 8).
+pos.
+end(model(example487)).
+
+begin(model(example488)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 8).
+pos.
+end(model(example488)).
+
+begin(model(example489)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 8).
+pos.
+end(model(example489)).
+
+begin(model(example490)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 8).
+pos.
+end(model(example490)).
+
+begin(model(example491)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 8).
+pos.
+end(model(example491)).
+
+begin(model(example492)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 8).
+pos.
+end(model(example492)).
+
+begin(model(example493)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 8).
+pos.
+end(model(example493)).
+
+begin(model(example494)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 8).
+pos.
+end(model(example494)).
+
+begin(model(example495)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 8).
+pos.
+end(model(example495)).
+
+begin(model(example496)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 8).
+pos.
+end(model(example496)).
+
+begin(model(example497)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 8).
+pos.
+end(model(example497)).
+
+begin(model(example498)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 8).
+pos.
+end(model(example498)).
+
+begin(model(example499)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 8).
+pos.
+end(model(example499)).
+
+begin(model(example500)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 8).
+pos.
+end(model(example500)).
+
+begin(model(example501)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 8).
+pos.
+end(model(example501)).
+
+begin(model(example502)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 8).
+pos.
+end(model(example502)).
+
+begin(model(example503)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 8).
+pos.
+end(model(example503)).
+
+begin(model(example504)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 7, 4).
+neg.
+end(model(example504)).
+
+begin(model(example505)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 5).
+neg.
+end(model(example505)).
+
+begin(model(example506)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 5, 8).
+neg.
+end(model(example506)).
+
+begin(model(example507)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 8, 6).
+neg.
+end(model(example507)).
+
+begin(model(example508)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 7).
+neg.
+end(model(example508)).
+
+begin(model(example509)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 8, 4).
+neg.
+end(model(example509)).
+
+begin(model(example510)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 1, 3).
+neg.
+end(model(example510)).
+
+begin(model(example511)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 4, 3).
+neg.
+end(model(example511)).
+
+begin(model(example512)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+action(near, 3, 5).
+neg.
+end(model(example512)).
+
+begin(model(example513)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+action(near, 4, 7).
+neg.
+end(model(example513)).
+
+begin(model(example514)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+action(near, 3, 1).
+neg.
+end(model(example514)).
+
+begin(model(example515)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+action(near, 4, 1).
+neg.
+end(model(example515)).
+
+begin(model(example516)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+action(near, 6, 8).
+neg.
+end(model(example516)).
+
+begin(model(example517)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+action(near, 4, 5).
+neg.
+end(model(example517)).
+
+begin(model(example518)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+action(near, 6, 4).
+neg.
+end(model(example518)).
+
+begin(model(example519)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+action(near, 5, 1).
+neg.
+end(model(example519)).
+
+begin(model(example520)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+done.
+pos.
+end(model(example520)).
+
+begin(model(example521)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+done.
+pos.
+end(model(example521)).
+
+begin(model(example522)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+done.
+pos.
+end(model(example522)).
+
+begin(model(example523)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+done.
+pos.
+end(model(example523)).
+
+begin(model(example524)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+done.
+pos.
+end(model(example524)).
+
+begin(model(example525)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+done.
+pos.
+end(model(example525)).
+
+begin(model(example526)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+done.
+pos.
+end(model(example526)).
+
+begin(model(example527)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+done.
+pos.
+end(model(example527)).
+
+begin(model(example528)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+done.
+pos.
+end(model(example528)).
+
+begin(model(example529)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+done.
+pos.
+end(model(example529)).
+
+begin(model(example530)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+done.
+pos.
+end(model(example530)).
+
+begin(model(example531)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+done.
+pos.
+end(model(example531)).
+
+begin(model(example532)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+done.
+pos.
+end(model(example532)).
+
+begin(model(example533)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+done.
+pos.
+end(model(example533)).
+
+begin(model(example534)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+done.
+pos.
+end(model(example534)).
+
+begin(model(example535)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+done.
+pos.
+end(model(example535)).
+
+begin(model(example536)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+done.
+pos.
+end(model(example536)).
+
+begin(model(example537)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+done.
+pos.
+end(model(example537)).
+
+begin(model(example538)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+done.
+pos.
+end(model(example538)).
+
+begin(model(example539)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+done.
+pos.
+end(model(example539)).
+
+begin(model(example540)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+done.
+pos.
+end(model(example540)).
+
+begin(model(example541)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+done.
+pos.
+end(model(example541)).
+
+begin(model(example542)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+done.
+pos.
+end(model(example542)).
+
+begin(model(example543)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+done.
+pos.
+end(model(example543)).
+
+begin(model(example544)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+done.
+pos.
+end(model(example544)).
+
+begin(model(example545)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+done.
+pos.
+end(model(example545)).
+
+begin(model(example546)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+done.
+pos.
+end(model(example546)).
+
+begin(model(example547)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+done.
+pos.
+end(model(example547)).
+
+begin(model(example548)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+done.
+pos.
+end(model(example548)).
+
+begin(model(example549)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+done.
+pos.
+end(model(example549)).
+
+begin(model(example550)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+done.
+pos.
+end(model(example550)).
+
+begin(model(example551)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+done.
+pos.
+end(model(example551)).
+
+begin(model(example552)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+done.
+pos.
+end(model(example552)).
+
+begin(model(example553)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+done.
+pos.
+end(model(example553)).
+
+begin(model(example554)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+done.
+pos.
+end(model(example554)).
+
+begin(model(example555)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+done.
+pos.
+end(model(example555)).
+
+begin(model(example556)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+done.
+pos.
+end(model(example556)).
+
+begin(model(example557)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+done.
+pos.
+end(model(example557)).
+
+begin(model(example558)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+done.
+pos.
+end(model(example558)).
+
+begin(model(example559)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+done.
+pos.
+end(model(example559)).
+
+begin(model(example560)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+done.
+pos.
+end(model(example560)).
+
+begin(model(example561)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+done.
+pos.
+end(model(example561)).
+
+begin(model(example562)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+action(near, 1, 4).
+neg.
+end(model(example562)).
+
+begin(model(example563)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+action(near, 7, 3).
+neg.
+end(model(example563)).
+
+begin(model(example564)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+action(near, 1, 8).
+neg.
+end(model(example564)).
+
+begin(model(example565)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+action(near, 5, 3).
+neg.
+end(model(example565)).
+
+begin(model(example566)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+action(near, 5, 7).
+neg.
+end(model(example566)).
+
+begin(model(example567)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+action(near, 7, 1).
+neg.
+end(model(example567)).
+
+begin(model(example568)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+action(near, 7, 5).
+neg.
+end(model(example568)).
+
+begin(model(example569)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+action(near, 8, 7).
+neg.
+end(model(example569)).
+
+begin(model(example570)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+action(near, 4, 8).
+neg.
+end(model(example570)).
+
+begin(model(example571)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+action(near, 8, 3).
+neg.
+end(model(example571)).
+
+begin(model(example572)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+action(near, 1, 6).
+neg.
+end(model(example572)).
+
+begin(model(example573)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+action(near, 3, 6).
+neg.
+end(model(example573)).
+
+begin(model(example574)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+action(near, 8, 1).
+neg.
+end(model(example574)).
+
+begin(model(example575)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+action(near, 8, 5).
+neg.
+end(model(example575)).
+
+begin(model(example576)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+action(near, 3, 4).
+neg.
+end(model(example576)).
+
+begin(model(example577)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+action(near, 1, 7).
+neg.
+end(model(example577)).
+
+begin(model(example578)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+action(near, 7, 8).
+neg.
+end(model(example578)).
+
+begin(model(example579)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+action(near, 4, 6).
+neg.
+end(model(example579)).
+
+begin(model(example580)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+action(near, 6, 5).
+neg.
+end(model(example580)).
+
+begin(model(example581)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+action(near, 6, 1).
+neg.
+end(model(example581)).
+
+begin(model(example582)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+action(near, 6, 7).
+neg.
+end(model(example582)).
+
+begin(model(example583)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+action(near, 6, 3).
+neg.
+end(model(example583)).
+
+begin(model(example584)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+action(near, 5, 4).
+neg.
+end(model(example584)).
+
+begin(model(example585)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+action(near, 5, 6).
+neg.
+end(model(example585)).
+
+begin(model(example586)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+action(near, 7, 6).
+neg.
+end(model(example586)).
+
+begin(model(example587)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+action(near, 3, 8).
+neg.
+end(model(example587)).
+
+begin(model(example588)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+action(near, 7, 4).
+neg.
+end(model(example588)).
+
+begin(model(example589)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+action(near, 1, 5).
+neg.
+end(model(example589)).
+
+begin(model(example590)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+action(near, 5, 8).
+neg.
+end(model(example590)).
+
+begin(model(example591)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+action(near, 8, 6).
+neg.
+end(model(example591)).
+
+begin(model(example592)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+action(near, 3, 7).
+neg.
+end(model(example592)).
+
+begin(model(example593)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+action(near, 8, 4).
+neg.
+end(model(example593)).
+
+begin(model(example594)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+action(near, 1, 3).
+neg.
+end(model(example594)).
+
+begin(model(example595)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+action(near, 4, 3).
+neg.
+end(model(example595)).
+
+begin(model(example596)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+bowl(6).
+fork(7).
+plate(8).
+near(1, 5).
+near(3, 8).
+near(4, 5).
+near(4, 6).
+near(4, 7).
+near(5, 1).
+near(5, 4).
+near(5, 6).
+near(6, 4).
+near(6, 5).
+near(7, 4).
+near(8, 3).
+action(near, 3, 5).
+neg.
+end(model(example596)).
+
+begin(model(example597)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+action(near, 0, 1).
+neg.
+end(model(example597)).
+
+begin(model(example598)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+action(near, 3, 0).
+neg.
+end(model(example598)).
+
+begin(model(example599)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+action(near, 3, 1).
+neg.
+end(model(example599)).
+
+begin(model(example600)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+action(near, 4, 1).
+neg.
+end(model(example600)).
+
+begin(model(example601)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+action(near, 4, 0).
+neg.
+end(model(example601)).
+
+begin(model(example602)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+action(near, 1, 4).
+neg.
+end(model(example602)).
+
+begin(model(example603)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+action(near, 1, 0).
+neg.
+end(model(example603)).
+
+begin(model(example604)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+done.
+neg.
+end(model(example604)).
+
+begin(model(example605)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+action(near, 0, 3).
+neg.
+end(model(example605)).
+
+begin(model(example606)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+action(near, 1, 3).
+neg.
+end(model(example606)).
+
+begin(model(example607)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+action(near, 3, 4).
+pos.
+end(model(example607)).
+
+begin(model(example608)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+action(near, 3, 4).
+pos.
+end(model(example608)).
+
+begin(model(example609)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+action(near, 3, 4).
+pos.
+end(model(example609)).
+
+begin(model(example610)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+action(near, 3, 4).
+pos.
+end(model(example610)).
+
+begin(model(example611)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+action(near, 3, 4).
+pos.
+end(model(example611)).
+
+begin(model(example612)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+action(near, 3, 4).
+pos.
+end(model(example612)).
+
+begin(model(example613)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+action(near, 3, 4).
+pos.
+end(model(example613)).
+
+begin(model(example614)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+action(near, 3, 4).
+pos.
+end(model(example614)).
+
+begin(model(example615)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+action(near, 3, 4).
+pos.
+end(model(example615)).
+
+begin(model(example616)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+action(near, 3, 4).
+pos.
+end(model(example616)).
+
+begin(model(example617)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+action(near, 3, 4).
+pos.
+end(model(example617)).
+
+begin(model(example618)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+action(near, 3, 4).
+pos.
+end(model(example618)).
+
+begin(model(example619)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+action(near, 4, 3).
+neg.
+end(model(example619)).
+
+begin(model(example620)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+action(near, 0, 4).
+neg.
+end(model(example620)).
+
+begin(model(example621)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+near(3, 4).
+near(4, 3).
+action(near, 0, 1).
+neg.
+end(model(example621)).
+
+begin(model(example622)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+near(3, 4).
+near(4, 3).
+action(near, 3, 0).
+neg.
+end(model(example622)).
+
+begin(model(example623)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+near(3, 4).
+near(4, 3).
+action(near, 3, 1).
+neg.
+end(model(example623)).
+
+begin(model(example624)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+near(3, 4).
+near(4, 3).
+action(near, 4, 1).
+neg.
+end(model(example624)).
+
+begin(model(example625)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+near(3, 4).
+near(4, 3).
+action(near, 4, 0).
+neg.
+end(model(example625)).
+
+begin(model(example626)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+near(3, 4).
+near(4, 3).
+action(near, 1, 4).
+neg.
+end(model(example626)).
+
+begin(model(example627)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+near(3, 4).
+near(4, 3).
+action(near, 1, 0).
+neg.
+end(model(example627)).
+
+begin(model(example628)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+near(3, 4).
+near(4, 3).
+done.
+pos.
+end(model(example628)).
+
+begin(model(example629)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+near(3, 4).
+near(4, 3).
+done.
+pos.
+end(model(example629)).
+
+begin(model(example630)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+near(3, 4).
+near(4, 3).
+done.
+pos.
+end(model(example630)).
+
+begin(model(example631)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+near(3, 4).
+near(4, 3).
+done.
+pos.
+end(model(example631)).
+
+begin(model(example632)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+near(3, 4).
+near(4, 3).
+done.
+pos.
+end(model(example632)).
+
+begin(model(example633)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+near(3, 4).
+near(4, 3).
+done.
+pos.
+end(model(example633)).
+
+begin(model(example634)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+near(3, 4).
+near(4, 3).
+done.
+pos.
+end(model(example634)).
+
+begin(model(example635)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+near(3, 4).
+near(4, 3).
+done.
+pos.
+end(model(example635)).
+
+begin(model(example636)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+near(3, 4).
+near(4, 3).
+done.
+pos.
+end(model(example636)).
+
+begin(model(example637)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+near(3, 4).
+near(4, 3).
+done.
+pos.
+end(model(example637)).
+
+begin(model(example638)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+near(3, 4).
+near(4, 3).
+done.
+pos.
+end(model(example638)).
+
+begin(model(example639)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+near(3, 4).
+near(4, 3).
+done.
+pos.
+end(model(example639)).
+
+begin(model(example640)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+near(3, 4).
+near(4, 3).
+action(near, 0, 3).
+neg.
+end(model(example640)).
+
+begin(model(example641)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+near(3, 4).
+near(4, 3).
+action(near, 1, 3).
+neg.
+end(model(example641)).
+
+begin(model(example642)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+near(3, 4).
+near(4, 3).
+action(near, 3, 4).
+neg.
+end(model(example642)).
+
+begin(model(example643)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+near(3, 4).
+near(4, 3).
+action(near, 4, 3).
+neg.
+end(model(example643)).
+
+begin(model(example644)).
+cup(0).
+fork(1).
+fork(3).
+plate(4).
+near(3, 4).
+near(4, 3).
+action(near, 0, 4).
+neg.
+end(model(example644)).
+
+begin(model(example645)).
+cup(0).
+fork(1).
+fork(3).
+action(near, 0, 1).
+neg.
+end(model(example645)).
+
+begin(model(example646)).
+cup(0).
+fork(1).
+fork(3).
+action(near, 3, 0).
+neg.
+end(model(example646)).
+
+begin(model(example647)).
+cup(0).
+fork(1).
+fork(3).
+action(near, 3, 1).
+neg.
+end(model(example647)).
+
+begin(model(example648)).
+cup(0).
+fork(1).
+fork(3).
+action(near, 1, 0).
+neg.
+end(model(example648)).
+
+begin(model(example649)).
+cup(0).
+fork(1).
+fork(3).
+done.
+pos.
+end(model(example649)).
+
+begin(model(example650)).
+cup(0).
+fork(1).
+fork(3).
+done.
+pos.
+end(model(example650)).
+
+begin(model(example651)).
+cup(0).
+fork(1).
+fork(3).
+done.
+pos.
+end(model(example651)).
+
+begin(model(example652)).
+cup(0).
+fork(1).
+fork(3).
+done.
+pos.
+end(model(example652)).
+
+begin(model(example653)).
+cup(0).
+fork(1).
+fork(3).
+done.
+pos.
+end(model(example653)).
+
+begin(model(example654)).
+cup(0).
+fork(1).
+fork(3).
+done.
+pos.
+end(model(example654)).
+
+begin(model(example655)).
+cup(0).
+fork(1).
+fork(3).
+action(near, 0, 3).
+neg.
+end(model(example655)).
+
+begin(model(example656)).
+cup(0).
+fork(1).
+fork(3).
+action(near, 1, 3).
+neg.
+end(model(example656)).
+
+begin(model(example657)).
+plate(8).
+fork(3).
+plate(4).
+action(near, 4, 8).
+neg.
+end(model(example657)).
+
+begin(model(example658)).
+plate(8).
+fork(3).
+plate(4).
+action(near, 8, 3).
+neg.
+end(model(example658)).
+
+begin(model(example659)).
+plate(8).
+fork(3).
+plate(4).
+done.
+neg.
+end(model(example659)).
+
+begin(model(example660)).
+plate(8).
+fork(3).
+plate(4).
+action(near, 8, 4).
+neg.
+end(model(example660)).
+
+begin(model(example661)).
+plate(8).
+fork(3).
+plate(4).
+action(near, 3, 8).
+pos.
+end(model(example661)).
+
+begin(model(example662)).
+plate(8).
+fork(3).
+plate(4).
+action(near, 3, 8).
+pos.
+end(model(example662)).
+
+begin(model(example663)).
+plate(8).
+fork(3).
+plate(4).
+action(near, 3, 8).
+pos.
+end(model(example663)).
+
+begin(model(example664)).
+plate(8).
+fork(3).
+plate(4).
+action(near, 3, 8).
+pos.
+end(model(example664)).
+
+begin(model(example665)).
+plate(8).
+fork(3).
+plate(4).
+action(near, 3, 8).
+pos.
+end(model(example665)).
+
+begin(model(example666)).
+plate(8).
+fork(3).
+plate(4).
+action(near, 3, 8).
+pos.
+end(model(example666)).
+
+begin(model(example667)).
+plate(8).
+fork(3).
+plate(4).
+action(near, 3, 4).
+neg.
+end(model(example667)).
+
+begin(model(example668)).
+plate(8).
+fork(3).
+plate(4).
+action(near, 4, 3).
+neg.
+end(model(example668)).
+
+begin(model(example669)).
+plate(8).
+fork(3).
+plate(4).
+near(8, 3).
+near(3, 8).
+action(near, 4, 8).
+neg.
+end(model(example669)).
+
+begin(model(example670)).
+plate(8).
+fork(3).
+plate(4).
+near(8, 3).
+near(3, 8).
+action(near, 8, 3).
+neg.
+end(model(example670)).
+
+begin(model(example671)).
+plate(8).
+fork(3).
+plate(4).
+near(8, 3).
+near(3, 8).
+done.
+pos.
+end(model(example671)).
+
+begin(model(example672)).
+plate(8).
+fork(3).
+plate(4).
+near(8, 3).
+near(3, 8).
+done.
+pos.
+end(model(example672)).
+
+begin(model(example673)).
+plate(8).
+fork(3).
+plate(4).
+near(8, 3).
+near(3, 8).
+done.
+pos.
+end(model(example673)).
+
+begin(model(example674)).
+plate(8).
+fork(3).
+plate(4).
+near(8, 3).
+near(3, 8).
+done.
+pos.
+end(model(example674)).
+
+begin(model(example675)).
+plate(8).
+fork(3).
+plate(4).
+near(8, 3).
+near(3, 8).
+done.
+pos.
+end(model(example675)).
+
+begin(model(example676)).
+plate(8).
+fork(3).
+plate(4).
+near(8, 3).
+near(3, 8).
+done.
+pos.
+end(model(example676)).
+
+begin(model(example677)).
+plate(8).
+fork(3).
+plate(4).
+near(8, 3).
+near(3, 8).
+action(near, 8, 4).
+neg.
+end(model(example677)).
+
+begin(model(example678)).
+plate(8).
+fork(3).
+plate(4).
+near(8, 3).
+near(3, 8).
+action(near, 3, 8).
+neg.
+end(model(example678)).
+
+begin(model(example679)).
+plate(8).
+fork(3).
+plate(4).
+near(8, 3).
+near(3, 8).
+action(near, 3, 4).
+neg.
+end(model(example679)).
+
+begin(model(example680)).
+plate(8).
+fork(3).
+plate(4).
+near(8, 3).
+near(3, 8).
+action(near, 4, 3).
+neg.
+end(model(example680)).
+
+begin(model(example681)).
+plate(8).
+plate(4).
+plate(5).
+near(8, 5).
+near(5, 8).
+action(near, 4, 5).
+neg.
+end(model(example681)).
+
+begin(model(example682)).
+plate(8).
+plate(4).
+plate(5).
+near(8, 5).
+near(5, 8).
+action(near, 5, 8).
+neg.
+end(model(example682)).
+
+begin(model(example683)).
+plate(8).
+plate(4).
+plate(5).
+near(8, 5).
+near(5, 8).
+action(near, 4, 8).
+neg.
+end(model(example683)).
+
+begin(model(example684)).
+plate(8).
+plate(4).
+plate(5).
+near(8, 5).
+near(5, 8).
+done.
+pos.
+end(model(example684)).
+
+begin(model(example685)).
+plate(8).
+plate(4).
+plate(5).
+near(8, 5).
+near(5, 8).
+done.
+pos.
+end(model(example685)).
+
+begin(model(example686)).
+plate(8).
+plate(4).
+plate(5).
+near(8, 5).
+near(5, 8).
+done.
+pos.
+end(model(example686)).
+
+begin(model(example687)).
+plate(8).
+plate(4).
+plate(5).
+near(8, 5).
+near(5, 8).
+done.
+pos.
+end(model(example687)).
+
+begin(model(example688)).
+plate(8).
+plate(4).
+plate(5).
+near(8, 5).
+near(5, 8).
+done.
+pos.
+end(model(example688)).
+
+begin(model(example689)).
+plate(8).
+plate(4).
+plate(5).
+near(8, 5).
+near(5, 8).
+done.
+pos.
+end(model(example689)).
+
+begin(model(example690)).
+plate(8).
+plate(4).
+plate(5).
+near(8, 5).
+near(5, 8).
+action(near, 8, 4).
+neg.
+end(model(example690)).
+
+begin(model(example691)).
+plate(8).
+plate(4).
+plate(5).
+near(8, 5).
+near(5, 8).
+action(near, 8, 5).
+neg.
+end(model(example691)).
+
+begin(model(example692)).
+plate(8).
+plate(4).
+plate(5).
+near(8, 5).
+near(5, 8).
+action(near, 5, 4).
+neg.
+end(model(example692)).
+
+begin(model(example693)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+action(near, 3, 1).
+neg.
+end(model(example693)).
+
+begin(model(example694)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+action(near, 4, 1).
+neg.
+end(model(example694)).
+
+begin(model(example695)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+action(near, 4, 5).
+neg.
+end(model(example695)).
+
+begin(model(example696)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+action(near, 1, 5).
+neg.
+end(model(example696)).
+
+begin(model(example697)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+action(near, 1, 4).
+neg.
+end(model(example697)).
+
+begin(model(example698)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+action(near, 3, 5).
+pos.
+end(model(example698)).
+
+begin(model(example699)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+action(near, 3, 5).
+pos.
+end(model(example699)).
+
+begin(model(example700)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+action(near, 3, 5).
+pos.
+end(model(example700)).
+
+begin(model(example701)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+action(near, 3, 5).
+pos.
+end(model(example701)).
+
+begin(model(example702)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+action(near, 3, 5).
+pos.
+end(model(example702)).
+
+begin(model(example703)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+action(near, 3, 5).
+pos.
+end(model(example703)).
+
+begin(model(example704)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+action(near, 3, 5).
+pos.
+end(model(example704)).
+
+begin(model(example705)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+action(near, 3, 5).
+pos.
+end(model(example705)).
+
+begin(model(example706)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+action(near, 3, 5).
+pos.
+end(model(example706)).
+
+begin(model(example707)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+action(near, 3, 5).
+pos.
+end(model(example707)).
+
+begin(model(example708)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+action(near, 3, 5).
+pos.
+end(model(example708)).
+
+begin(model(example709)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+action(near, 3, 5).
+pos.
+end(model(example709)).
+
+begin(model(example710)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+action(near, 5, 1).
+neg.
+end(model(example710)).
+
+begin(model(example711)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+done.
+neg.
+end(model(example711)).
+
+begin(model(example712)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+action(near, 5, 4).
+neg.
+end(model(example712)).
+
+begin(model(example713)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+action(near, 1, 3).
+neg.
+end(model(example713)).
+
+begin(model(example714)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+action(near, 3, 4).
+neg.
+end(model(example714)).
+
+begin(model(example715)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+action(near, 4, 3).
+neg.
+end(model(example715)).
+
+begin(model(example716)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+action(near, 5, 3).
+neg.
+end(model(example716)).
+
+begin(model(example717)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(3, 5).
+near(5, 3).
+action(near, 3, 1).
+neg.
+end(model(example717)).
+
+begin(model(example718)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(3, 5).
+near(5, 3).
+action(near, 4, 1).
+neg.
+end(model(example718)).
+
+begin(model(example719)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(3, 5).
+near(5, 3).
+action(near, 4, 5).
+neg.
+end(model(example719)).
+
+begin(model(example720)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(3, 5).
+near(5, 3).
+action(near, 1, 5).
+neg.
+end(model(example720)).
+
+begin(model(example721)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(3, 5).
+near(5, 3).
+action(near, 1, 4).
+pos.
+end(model(example721)).
+
+begin(model(example722)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(3, 5).
+near(5, 3).
+action(near, 1, 4).
+pos.
+end(model(example722)).
+
+begin(model(example723)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(3, 5).
+near(5, 3).
+action(near, 1, 4).
+pos.
+end(model(example723)).
+
+begin(model(example724)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(3, 5).
+near(5, 3).
+action(near, 1, 4).
+pos.
+end(model(example724)).
+
+begin(model(example725)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(3, 5).
+near(5, 3).
+action(near, 1, 4).
+pos.
+end(model(example725)).
+
+begin(model(example726)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(3, 5).
+near(5, 3).
+action(near, 1, 4).
+pos.
+end(model(example726)).
+
+begin(model(example727)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(3, 5).
+near(5, 3).
+action(near, 1, 4).
+pos.
+end(model(example727)).
+
+begin(model(example728)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(3, 5).
+near(5, 3).
+action(near, 1, 4).
+pos.
+end(model(example728)).
+
+begin(model(example729)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(3, 5).
+near(5, 3).
+action(near, 1, 4).
+pos.
+end(model(example729)).
+
+begin(model(example730)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(3, 5).
+near(5, 3).
+action(near, 1, 4).
+pos.
+end(model(example730)).
+
+begin(model(example731)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(3, 5).
+near(5, 3).
+action(near, 1, 4).
+pos.
+end(model(example731)).
+
+begin(model(example732)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(3, 5).
+near(5, 3).
+action(near, 1, 4).
+pos.
+end(model(example732)).
+
+begin(model(example733)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(3, 5).
+near(5, 3).
+action(near, 3, 5).
+neg.
+end(model(example733)).
+
+begin(model(example734)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(3, 5).
+near(5, 3).
+action(near, 5, 1).
+neg.
+end(model(example734)).
+
+begin(model(example735)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(3, 5).
+near(5, 3).
+done.
+neg.
+end(model(example735)).
+
+begin(model(example736)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(3, 5).
+near(5, 3).
+action(near, 5, 4).
+neg.
+end(model(example736)).
+
+begin(model(example737)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(3, 5).
+near(5, 3).
+action(near, 1, 3).
+neg.
+end(model(example737)).
+
+begin(model(example738)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(3, 5).
+near(5, 3).
+action(near, 3, 4).
+neg.
+end(model(example738)).
+
+begin(model(example739)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(3, 5).
+near(5, 3).
+action(near, 4, 3).
+neg.
+end(model(example739)).
+
+begin(model(example740)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(3, 5).
+near(5, 3).
+action(near, 5, 3).
+neg.
+end(model(example740)).
+
+begin(model(example741)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(1, 4).
+near(3, 5).
+near(4, 1).
+near(5, 3).
+action(near, 3, 1).
+neg.
+end(model(example741)).
+
+begin(model(example742)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(1, 4).
+near(3, 5).
+near(4, 1).
+near(5, 3).
+action(near, 4, 1).
+neg.
+end(model(example742)).
+
+begin(model(example743)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(1, 4).
+near(3, 5).
+near(4, 1).
+near(5, 3).
+action(near, 4, 5).
+neg.
+end(model(example743)).
+
+begin(model(example744)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(1, 4).
+near(3, 5).
+near(4, 1).
+near(5, 3).
+action(near, 1, 5).
+neg.
+end(model(example744)).
+
+begin(model(example745)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(1, 4).
+near(3, 5).
+near(4, 1).
+near(5, 3).
+action(near, 1, 4).
+neg.
+end(model(example745)).
+
+begin(model(example746)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(1, 4).
+near(3, 5).
+near(4, 1).
+near(5, 3).
+action(near, 3, 5).
+neg.
+end(model(example746)).
+
+begin(model(example747)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(1, 4).
+near(3, 5).
+near(4, 1).
+near(5, 3).
+action(near, 5, 1).
+neg.
+end(model(example747)).
+
+begin(model(example748)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(1, 4).
+near(3, 5).
+near(4, 1).
+near(5, 3).
+done.
+pos.
+end(model(example748)).
+
+begin(model(example749)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(1, 4).
+near(3, 5).
+near(4, 1).
+near(5, 3).
+done.
+pos.
+end(model(example749)).
+
+begin(model(example750)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(1, 4).
+near(3, 5).
+near(4, 1).
+near(5, 3).
+done.
+pos.
+end(model(example750)).
+
+begin(model(example751)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(1, 4).
+near(3, 5).
+near(4, 1).
+near(5, 3).
+done.
+pos.
+end(model(example751)).
+
+begin(model(example752)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(1, 4).
+near(3, 5).
+near(4, 1).
+near(5, 3).
+done.
+pos.
+end(model(example752)).
+
+begin(model(example753)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(1, 4).
+near(3, 5).
+near(4, 1).
+near(5, 3).
+done.
+pos.
+end(model(example753)).
+
+begin(model(example754)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(1, 4).
+near(3, 5).
+near(4, 1).
+near(5, 3).
+done.
+pos.
+end(model(example754)).
+
+begin(model(example755)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(1, 4).
+near(3, 5).
+near(4, 1).
+near(5, 3).
+done.
+pos.
+end(model(example755)).
+
+begin(model(example756)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(1, 4).
+near(3, 5).
+near(4, 1).
+near(5, 3).
+done.
+pos.
+end(model(example756)).
+
+begin(model(example757)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(1, 4).
+near(3, 5).
+near(4, 1).
+near(5, 3).
+done.
+pos.
+end(model(example757)).
+
+begin(model(example758)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(1, 4).
+near(3, 5).
+near(4, 1).
+near(5, 3).
+done.
+pos.
+end(model(example758)).
+
+begin(model(example759)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(1, 4).
+near(3, 5).
+near(4, 1).
+near(5, 3).
+done.
+pos.
+end(model(example759)).
+
+begin(model(example760)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(1, 4).
+near(3, 5).
+near(4, 1).
+near(5, 3).
+action(near, 5, 4).
+neg.
+end(model(example760)).
+
+begin(model(example761)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(1, 4).
+near(3, 5).
+near(4, 1).
+near(5, 3).
+action(near, 1, 3).
+neg.
+end(model(example761)).
+
+begin(model(example762)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(1, 4).
+near(3, 5).
+near(4, 1).
+near(5, 3).
+action(near, 3, 4).
+neg.
+end(model(example762)).
+
+begin(model(example763)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(1, 4).
+near(3, 5).
+near(4, 1).
+near(5, 3).
+action(near, 4, 3).
+neg.
+end(model(example763)).
+
+begin(model(example764)).
+fork(1).
+fork(3).
+plate(4).
+plate(5).
+near(1, 4).
+near(3, 5).
+near(4, 1).
+near(5, 3).
+action(near, 5, 3).
+neg.
+end(model(example764)).
+
+begin(model(example765)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 6).
+near(6, 0).
+near(6, 3).
+action(near, 3, 0).
+neg.
+end(model(example765)).
+
+begin(model(example766)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 6).
+near(6, 0).
+near(6, 3).
+action(near, 4, 0).
+neg.
+end(model(example766)).
+
+begin(model(example767)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 6).
+near(6, 0).
+near(6, 3).
+action(near, 6, 4).
+neg.
+end(model(example767)).
+
+begin(model(example768)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 6).
+near(6, 0).
+near(6, 3).
+action(near, 4, 6).
+neg.
+end(model(example768)).
+
+begin(model(example769)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 6).
+near(6, 0).
+near(6, 3).
+action(near, 0, 6).
+neg.
+end(model(example769)).
+
+begin(model(example770)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 6).
+near(6, 0).
+near(6, 3).
+done.
+neg.
+end(model(example770)).
+
+begin(model(example771)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 6).
+near(6, 0).
+near(6, 3).
+action(near, 3, 6).
+neg.
+end(model(example771)).
+
+begin(model(example772)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 6).
+near(6, 0).
+near(6, 3).
+action(near, 6, 3).
+neg.
+end(model(example772)).
+
+begin(model(example773)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 6).
+near(6, 0).
+near(6, 3).
+action(near, 0, 3).
+neg.
+end(model(example773)).
+
+begin(model(example774)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 6).
+near(6, 0).
+near(6, 3).
+action(near, 3, 4).
+pos.
+end(model(example774)).
+
+begin(model(example775)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 6).
+near(6, 0).
+near(6, 3).
+action(near, 3, 4).
+pos.
+end(model(example775)).
+
+begin(model(example776)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 6).
+near(6, 0).
+near(6, 3).
+action(near, 3, 4).
+pos.
+end(model(example776)).
+
+begin(model(example777)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 6).
+near(6, 0).
+near(6, 3).
+action(near, 3, 4).
+pos.
+end(model(example777)).
+
+begin(model(example778)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 6).
+near(6, 0).
+near(6, 3).
+action(near, 3, 4).
+pos.
+end(model(example778)).
+
+begin(model(example779)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 6).
+near(6, 0).
+near(6, 3).
+action(near, 3, 4).
+pos.
+end(model(example779)).
+
+begin(model(example780)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 6).
+near(6, 0).
+near(6, 3).
+action(near, 3, 4).
+pos.
+end(model(example780)).
+
+begin(model(example781)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 6).
+near(6, 0).
+near(6, 3).
+action(near, 3, 4).
+pos.
+end(model(example781)).
+
+begin(model(example782)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 6).
+near(6, 0).
+near(6, 3).
+action(near, 3, 4).
+pos.
+end(model(example782)).
+
+begin(model(example783)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 6).
+near(6, 0).
+near(6, 3).
+action(near, 3, 4).
+pos.
+end(model(example783)).
+
+begin(model(example784)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 6).
+near(6, 0).
+near(6, 3).
+action(near, 3, 4).
+pos.
+end(model(example784)).
+
+begin(model(example785)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 6).
+near(6, 0).
+near(6, 3).
+action(near, 3, 4).
+pos.
+end(model(example785)).
+
+begin(model(example786)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 6).
+near(6, 0).
+near(6, 3).
+action(near, 6, 0).
+neg.
+end(model(example786)).
+
+begin(model(example787)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 6).
+near(6, 0).
+near(6, 3).
+action(near, 4, 3).
+neg.
+end(model(example787)).
+
+begin(model(example788)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 6).
+near(6, 0).
+near(6, 3).
+action(near, 0, 4).
+neg.
+end(model(example788)).
+
+begin(model(example789)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 4).
+near(4, 3).
+near(6, 0).
+action(near, 3, 0).
+neg.
+end(model(example789)).
+
+begin(model(example790)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 4).
+near(4, 3).
+near(6, 0).
+action(near, 4, 0).
+neg.
+end(model(example790)).
+
+begin(model(example791)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 4).
+near(4, 3).
+near(6, 0).
+action(near, 6, 4).
+neg.
+end(model(example791)).
+
+begin(model(example792)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 4).
+near(4, 3).
+near(6, 0).
+action(near, 4, 6).
+neg.
+end(model(example792)).
+
+begin(model(example793)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 4).
+near(4, 3).
+near(6, 0).
+action(near, 0, 6).
+neg.
+end(model(example793)).
+
+begin(model(example794)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 4).
+near(4, 3).
+near(6, 0).
+done.
+pos.
+end(model(example794)).
+
+begin(model(example795)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 4).
+near(4, 3).
+near(6, 0).
+done.
+pos.
+end(model(example795)).
+
+begin(model(example796)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 4).
+near(4, 3).
+near(6, 0).
+done.
+pos.
+end(model(example796)).
+
+begin(model(example797)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 4).
+near(4, 3).
+near(6, 0).
+done.
+pos.
+end(model(example797)).
+
+begin(model(example798)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 4).
+near(4, 3).
+near(6, 0).
+done.
+pos.
+end(model(example798)).
+
+begin(model(example799)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 4).
+near(4, 3).
+near(6, 0).
+done.
+pos.
+end(model(example799)).
+
+begin(model(example800)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 4).
+near(4, 3).
+near(6, 0).
+done.
+pos.
+end(model(example800)).
+
+begin(model(example801)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 4).
+near(4, 3).
+near(6, 0).
+done.
+pos.
+end(model(example801)).
+
+begin(model(example802)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 4).
+near(4, 3).
+near(6, 0).
+done.
+pos.
+end(model(example802)).
+
+begin(model(example803)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 4).
+near(4, 3).
+near(6, 0).
+done.
+pos.
+end(model(example803)).
+
+begin(model(example804)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 4).
+near(4, 3).
+near(6, 0).
+done.
+pos.
+end(model(example804)).
+
+begin(model(example805)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 4).
+near(4, 3).
+near(6, 0).
+done.
+pos.
+end(model(example805)).
+
+begin(model(example806)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 4).
+near(4, 3).
+near(6, 0).
+action(near, 3, 6).
+neg.
+end(model(example806)).
+
+begin(model(example807)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 4).
+near(4, 3).
+near(6, 0).
+action(near, 6, 3).
+neg.
+end(model(example807)).
+
+begin(model(example808)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 4).
+near(4, 3).
+near(6, 0).
+action(near, 0, 3).
+neg.
+end(model(example808)).
+
+begin(model(example809)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 4).
+near(4, 3).
+near(6, 0).
+action(near, 3, 4).
+neg.
+end(model(example809)).
+
+begin(model(example810)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 4).
+near(4, 3).
+near(6, 0).
+action(near, 6, 0).
+neg.
+end(model(example810)).
+
+begin(model(example811)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 4).
+near(4, 3).
+near(6, 0).
+action(near, 4, 3).
+neg.
+end(model(example811)).
+
+begin(model(example812)).
+cup(0).
+fork(3).
+plate(4).
+bowl(6).
+near(0, 6).
+near(3, 4).
+near(4, 3).
+near(6, 0).
+action(near, 0, 4).
+neg.
+end(model(example812)).
+
+begin(model(example813)).
+cup(0).
+fork(3).
+plate(4).
+action(near, 3, 0).
+neg.
+end(model(example813)).
+
+begin(model(example814)).
+cup(0).
+fork(3).
+plate(4).
+action(near, 4, 0).
+neg.
+end(model(example814)).
+
+begin(model(example815)).
+cup(0).
+fork(3).
+plate(4).
+done.
+neg.
+end(model(example815)).
+
+begin(model(example816)).
+cup(0).
+fork(3).
+plate(4).
+action(near, 0, 3).
+neg.
+end(model(example816)).
+
+begin(model(example817)).
+cup(0).
+fork(3).
+plate(4).
+action(near, 3, 4).
+pos.
+end(model(example817)).
+
+begin(model(example818)).
+cup(0).
+fork(3).
+plate(4).
+action(near, 3, 4).
+pos.
+end(model(example818)).
+
+begin(model(example819)).
+cup(0).
+fork(3).
+plate(4).
+action(near, 3, 4).
+pos.
+end(model(example819)).
+
+begin(model(example820)).
+cup(0).
+fork(3).
+plate(4).
+action(near, 3, 4).
+pos.
+end(model(example820)).
+
+begin(model(example821)).
+cup(0).
+fork(3).
+plate(4).
+action(near, 3, 4).
+pos.
+end(model(example821)).
+
+begin(model(example822)).
+cup(0).
+fork(3).
+plate(4).
+action(near, 3, 4).
+pos.
+end(model(example822)).
+
+begin(model(example823)).
+cup(0).
+fork(3).
+plate(4).
+action(near, 4, 3).
+neg.
+end(model(example823)).
+
+begin(model(example824)).
+cup(0).
+fork(3).
+plate(4).
+action(near, 0, 4).
+neg.
+end(model(example824)).
+
+begin(model(example825)).
+cup(0).
+fork(3).
+plate(4).
+near(3, 4).
+near(4, 3).
+action(near, 3, 0).
+neg.
+end(model(example825)).
+
+begin(model(example826)).
+cup(0).
+fork(3).
+plate(4).
+near(3, 4).
+near(4, 3).
+action(near, 4, 0).
+neg.
+end(model(example826)).
+
+begin(model(example827)).
+cup(0).
+fork(3).
+plate(4).
+near(3, 4).
+near(4, 3).
+done.
+pos.
+end(model(example827)).
+
+begin(model(example828)).
+cup(0).
+fork(3).
+plate(4).
+near(3, 4).
+near(4, 3).
+done.
+pos.
+end(model(example828)).
+
+begin(model(example829)).
+cup(0).
+fork(3).
+plate(4).
+near(3, 4).
+near(4, 3).
+done.
+pos.
+end(model(example829)).
+
+begin(model(example830)).
+cup(0).
+fork(3).
+plate(4).
+near(3, 4).
+near(4, 3).
+done.
+pos.
+end(model(example830)).
+
+begin(model(example831)).
+cup(0).
+fork(3).
+plate(4).
+near(3, 4).
+near(4, 3).
+done.
+pos.
+end(model(example831)).
+
+begin(model(example832)).
+cup(0).
+fork(3).
+plate(4).
+near(3, 4).
+near(4, 3).
+done.
+pos.
+end(model(example832)).
+
+begin(model(example833)).
+cup(0).
+fork(3).
+plate(4).
+near(3, 4).
+near(4, 3).
+action(near, 0, 3).
+neg.
+end(model(example833)).
+
+begin(model(example834)).
+cup(0).
+fork(3).
+plate(4).
+near(3, 4).
+near(4, 3).
+action(near, 3, 4).
+neg.
+end(model(example834)).
+
+begin(model(example835)).
+cup(0).
+fork(3).
+plate(4).
+near(3, 4).
+near(4, 3).
+action(near, 4, 3).
+neg.
+end(model(example835)).
+
+begin(model(example836)).
+cup(0).
+fork(3).
+plate(4).
+near(3, 4).
+near(4, 3).
+action(near, 0, 4).
+neg.
+end(model(example836)).
+

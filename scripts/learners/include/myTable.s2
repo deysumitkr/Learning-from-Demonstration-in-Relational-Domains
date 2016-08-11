@@ -1,0 +1,145 @@
+use_package(query).
+load(models).
+
+talking(2).
+
+tilde_mode(classify).
+
+classes([pos,neg]).
+
+accuracy(1).
+minimal_cases(1).
+
+pruning(vsb).
+random_validation_set(0.2).
+random_test_set(0.2).
+
+typed_language(yes).
+
+%type(stateNo(number)).
+
+type(fork(number)).
+type(plate(number)).
+type(not_plate(number)).
+type(not_fork(number)).
+
+type(near(number, number)).
+type(not_near(number, number)).
+
+%type(east(number, number)).
+%type(west(number, number)).
+%type(north(number, number)).
+%type(south(number, number)).
+type(object(number)).
+type(isValid(number, number)).
+type(action(string, number, number)).
+
+type(number == number).
+type(number \== number).
+type(not(number == number)).
+
+%rmode((near(-X,-Y), object(X), object(Y))).
+%rmode((near(-X,-Y), plate(X), fork(Y))).
+
+
+rmode(plate(+-X)).
+rmode(fork(+-X)).
+rmode(near(+-X,+-Y), not(X==Y)).
+
+rmode(not_plate(+-X)).
+rmode(not_fork(+-X)).
+rmode(not_near(+-X,+-Y), not(X==Y)).
+
+
+
+rmode((plate(+-X), near(X,Y), X\==Y)).
+rmode((plate(+-Y), near(X,Y), X\==Y)).
+rmode((fork(+-X), near(X,Y), X\==Y)).
+rmode((fork(+-Y), near(X,Y), X\==Y)).
+
+rmode((not_plate(+-X), near(X,Y), X\==Y)).
+rmode((not_plate(+-Y), near(X,Y), X\==Y)).
+rmode((not_fork(+-X), near(X,Y), X\==Y)).
+rmode((not_fork(+-Y), near(X,Y), X\==Y)).
+
+
+
+rmode((plate(+-X), fork(+-Y), near(X,Y))).
+rmode((fork(+-X), plate(+-Y), near(X,Y))).
+
+rmode((plate(+-X), not_fork(+-Y), near(X,Y))).
+rmode((fork(+-X), not_plate(+-Y), near(X,Y))).
+
+rmode((not_plate(+-X), fork(+-Y), near(X,Y))).
+rmode((not_fork(+-X), plate(+-Y), near(X,Y))).
+
+rmode((not_plate(+-X), not_fork(+-Y), near(X,Y))).
+rmode((not_fork(+-X), not_plate(+-Y), near(X,Y))).
+
+% ================ action ==================
+rmode(action(#[near],+-X,+-Y), not(X==Y)).
+
+rmode((plate(+-X), action(#[near],X,Y), X\==Y)).
+rmode((plate(+-Y), action(#[near],X,Y), X\==Y)).
+rmode((fork(+-X), action(#[near],X,Y), X\==Y)).
+rmode((fork(+-Y), action(#[near],X,Y), X\==Y)).
+
+rmode((not_plate(+-X), action(#[near],X,Y), X\==Y)).
+rmode((not_plate(+-Y), action(#[near],X,Y), X\==Y)).
+rmode((not_fork(+-X), action(#[near],X,Y), X\==Y)).
+rmode((not_fork(+-Y), action(#[near],X,Y), X\==Y)).
+
+
+rmode((plate(+-X), fork(+-Y), action(#[near],X,Y))).
+rmode((fork(+-X), plate(+-Y), action(#[near],X,Y))).
+
+rmode((plate(+-X), not_fork(+-Y), action(#[near],X,Y))).
+rmode((fork(+-X), not_plate(+-Y), action(#[near],X,Y))).
+
+rmode((not_plate(+-X), fork(+-Y), action(#[near],X,Y))).
+rmode((not_fork(+-X), plate(+-Y), action(#[near],X,Y))).
+
+rmode((not_plate(+-X), not_fork(+-Y), action(#[near],X,Y))).
+rmode((not_fork(+-X), not_plate(+-Y), action(#[near],X,Y))).
+
+
+% ==== near-Negate ====
+rmode((plate(+-X), not_near(X,Y), X\==Y)).
+rmode((plate(+-Y), not_near(X,Y), X\==Y)).
+rmode((fork(+-X), not_near(X,Y), X\==Y)).
+rmode((fork(+-Y), not_near(X,Y), X\==Y)).
+
+rmode((not_plate(+-X), not_near(X,Y), X\==Y)).
+rmode((not_plate(+-Y), not_near(X,Y), X\==Y)).
+rmode((not_fork(+-X), not_near(X,Y), X\==Y)).
+rmode((not_fork(+-Y), not_near(X,Y), X\==Y)).
+
+rmode((plate(+-X), fork(+-Y), not_near(X,Y))).
+rmode((fork(+-X), plate(+-Y), not_near(X,Y))).
+
+rmode((plate(+-X), not_fork(+-Y), not_near(X,Y))).
+rmode((fork(+-X), not_plate(+-Y), not_near(X,Y))).
+
+rmode((not_plate(+-X), fork(+-Y), not_near(X,Y))).
+rmode((not_fork(+-X), plate(+-Y), not_near(X,Y))).
+
+rmode((not_plate(+-X), not_fork(+-Y), not_near(X,Y))).
+rmode((not_fork(+-X), not_plate(+-Y), not_near(X,Y))).
+
+
+
+constraint(near(X,Y), isValid(X,Y)).
+%constraint(east(P,Q), isValid(P,Q)).
+%constraint(west(M,N), isValid(M,N)).
+%constraint(north(U,V), isValid(U,V)).
+%constraint(south(C,D), isValid(C,D)).
+
+max_lookahead(1).
+auto_lookahead(fork(X), [X]).
+auto_lookahead(plate(X), [X]).
+%auto_lookahead(near(X,Y), [X,Y]).
+
+
+output_options([c45e,prolog,roc01,elaborate]).
+
+   

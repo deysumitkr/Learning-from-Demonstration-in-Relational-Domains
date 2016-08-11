@@ -103,7 +103,7 @@ class Interface:
                 print '\nPossible Actions:\n', R.possibleActions
                 print '\nQuerying learner for available rewards....'
                 
-                if False:
+                if True:
                     Bc = bc.ActionCloning(R.state, R.possibleActions, self.regions, self.names)
                     print Bc.goodActions
                     

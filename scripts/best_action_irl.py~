@@ -71,7 +71,7 @@ class Reward:
 
     def createMainPro(self, state):
         dynamic = ['object/1', 'action/3', 'done/0']
-        obj = tilde.trainedObjects('./learners/ace/CSI/table.bg')
+        obj = tilde.trainedObjects('./learners/ace/bc/table.bg')
         for n in self.names.values()+obj:
             dynamic.append(n+'/1')
             dynamic.append('not_'+n+'/1')
@@ -83,8 +83,8 @@ class Reward:
         dynamic = list(set(dynamic))
         dynamic.sort()
 
-        code = tilde.extractCode("./learners/ace/CSI/tilde/table.out")
-        with open('./learners/ace/CSI/table.bg','r') as f:
+        code = tilde.extractCode("./learners/ace/bc/tilde/table.out")
+        with open('./learners/ace/bc/table.bg','r') as f:
             bg = f.read() 
 
         return """

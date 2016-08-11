@@ -1,0 +1,10 @@
+fetch_example:-
+        bim_recorded(testmodel,A),
+        B is A+1,
+        use_example(1,B).
+hack_query(A,A).
+hack_query_old(A,B):-
+        hack_query_examples__M_knowledge(A, B).
+select_example(A):-
+        get_b1_model_index(A,B),
+        use_example(1,B).

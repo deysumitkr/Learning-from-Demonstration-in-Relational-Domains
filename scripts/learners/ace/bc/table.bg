@@ -1,0 +1,10 @@
+object(X) :- fork(X).
+not_fork(X) :- object(x), not(fork(X)).
+object(X) :- plate(X).
+not_plate(X) :- object(x), not(plate(X)).
+object(X) :- bowl(X).
+not_bowl(X) :- object(x), not(bowl(X)).
+object(X) :- cup(X).
+not_cup(X) :- object(x), not(cup(X)).
+not_near(X,Y) :- object(X), object(Y), not(near(X,Y)).
+isValid(X,Y) :- object(X), object(Y), not(near(X,Y)).
