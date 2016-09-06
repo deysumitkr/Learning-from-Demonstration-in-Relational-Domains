@@ -10,6 +10,7 @@ from cv_bridge import CvBridge, CvBridgeError
 from ar_track_alvar_msgs.msg import AlvarMarkers
 
 import math
+from inputCV import UserInput
 
 #from __future__ import print_function
 
@@ -28,9 +29,15 @@ class image_converter:
     self.bridge = CvBridge()
     #self.image_sub = rospy.Subscriber("image_topic",Image,self.callback)
     self.image_sub = rospy.Subscriber("camera/image_raw",Image,self.callback)
+    self.UI = UserInput()
+
+  def destructor(self):
+    print "Shutting Down Node"
 
   @staticmethod
   def setData(data):
+    # numerical value at index 0 represents the persistence time for this data (after that many loop the data is
+    # discarded)
     image_converter.POS = [6, data]
   
   def callback(self,data):
@@ -39,9 +46,11 @@ class image_converter:
     except CvBridgeError as e:
       print(e)
 
+
     (rows,cols,channels) = cv_image.shape
     if cols > 60 and rows > 60 :
       if self.POS[0] > 0:
+        """
         for id in self.POS[1].keys():
             x = self.POS[1][id][0]
             y = self.POS[1][id][1]
@@ -52,15 +61,20 @@ class image_converter:
                 radius = int(math.sqrt((u-ur)**2 + (v-vr)**2))
                 cv2.circle(cv_image, (u, v), radius, (0, 255, 255), 6)
                 cv2.putText(cv_image,"Hello World!!!", (u,v+radius), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255))
+        """
+        if self.UI.update(cv_image, self.POS[1]):
+            #rospy.on_shutdown(self.destructor)
+            rospy.signal_shutdown("Aborted by user")
         self.POS[0] -= 1
 
-    cv2.imshow("Image window", cv_image)
-    cv2.waitKey(3)
+    #cv2.imshow("Image window", cv_image)
+    #cv2.waitKey(3)
 
     try:
       self.image_pub.publish(self.bridge.cv2_to_imgmsg(cv_image, "bgr8"))
     except CvBridgeError as e:
       print(e)
+
 
 def callback_tag(data):
     d = {}
