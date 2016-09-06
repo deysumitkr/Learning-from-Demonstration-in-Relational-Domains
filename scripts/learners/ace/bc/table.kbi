@@ -1,1 +1,1 @@
-example_predicates([plate/1,fork/1,action/3,pos/0,neg/0,done/0,near/2,cup/1,bowl/1]).
+example_predicates([plate/1,fork/1,not_near/2,east/2,not_west/2,not_south/2,not_east/2,west/2,action/3,neg/0,pos/0,done/0,near/2,cup/1,bowl/1,south/2]).

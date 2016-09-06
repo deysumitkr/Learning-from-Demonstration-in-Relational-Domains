@@ -6,5 +6,9 @@ object(X) :- bowl(X).
 not_bowl(X) :- object(x), not(bowl(X)).
 object(X) :- cup(X).
 not_cup(X) :- object(x), not(cup(X)).
+not_west(X,Y) :- object(X), object(Y), not(west(X,Y)).
 not_near(X,Y) :- object(X), object(Y), not(near(X,Y)).
+not_east(X,Y) :- object(X), object(Y), not(east(X,Y)).
+not_north(X,Y) :- object(X), object(Y), not(north(X,Y)).
+not_south(X,Y) :- object(X), object(Y), not(south(X,Y)).
 isValid(X,Y) :- object(X), object(Y), not(near(X,Y)).

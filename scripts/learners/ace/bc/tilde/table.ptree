@@ -1,69 +1,17 @@
-plate(-A),action(near,A,-B),A\==B ? 
-+--yes: [neg] 137.0 [[pos:0.0,neg:137.0]]
-+--no:  fork(-C),action(near,-D,C),D\==C ? 
-        +--yes: [neg] 72.0 [[pos:0.0,neg:72.0]]
-        +--no:  cup(-E),action(near,-F,E),F\==E ? 
-                +--yes: [neg] 31.0 [[pos:0.0,neg:31.0]]
-                +--no:  plate(-G),near(G,-H),action(near,H,G),G\==H ? 
-                        +--yes: [neg] 28.0 [[pos:0.0,neg:28.0]]
-                        +--no:  bowl(-I),action(near,-J,I),J\==I ? 
-                                +--yes: [neg] 20.0 [[pos:0.0,neg:20.0]]
-                                +--no:  cup(-K),action(near,K,-L),K\==L ? 
-                                        +--yes: [neg] 14.0 [[pos:0.0,neg:14.0]]
-                                        +--no:  bowl(-M),action(near,M,-N),M\==N ? 
-                                                +--yes: [neg] 8.0 [[pos:0.0,neg:8.0]]
-                                                +--no:  bowl(-O),fork(-P),near(O,P),done,O\==P ? 
-                                                        +--yes: [neg] 1.0 [[pos:0.0,neg:1.0]]
-                                                        +--no:  cup(-Q),fork(-R),near(Q,R),done,Q\==R ? 
-                                                                +--yes: [neg] 1.0 [[pos:0.0,neg:1.0]]
-                                                                +--no:  fork(-S),fork(-T),near(S,T),done,S\==T ? 
-                                                                        +--yes: [neg] 1.0 [[pos:0.0,neg:1.0]]
-                                                                        +--no:  fork(-U),plate(-V),not_near(U,V),not(U==V) ? 
-                                                                                +--yes: fork(-W),near(W,-X),done,W\==X ? 
-                                                                                |       +--yes: bowl(-Y) ? 
-                                                                                |       |       +--yes: not_near(Y,X),not(Y==X) ? 
-                                                                                |       |       |       +--yes: cup(-Z) ? 
-                                                                                |       |       |       |       +--yes: [pos] 35.0 [[pos:34.0,neg:1.0]]
-                                                                                |       |       |       |       +--no:  [pos] 32.0 [[pos:32.0,neg:0.0]]
-                                                                                |       |       |       +--no:  [neg] 2.0 [[pos:0.0,neg:2.0]]
-                                                                                |       |       +--no:  [pos] 27.0 [[pos:27.0,neg:0.0]]
-                                                                                |       +--no:  done ? 
-                                                                                |               +--yes: [neg] 5.0 [[pos:0.0,neg:5.0]]
-                                                                                |               +--no:  bowl(-A1),near(A1,U),not(A1==U) ? 
-                                                                                |                       +--yes: [pos] 11.0 [[pos:11.0,neg:0.0]]
-                                                                                |                       +--no:  cup(-B1),near(B1,V),not(B1==V) ? 
-                                                                                |                               +--yes: plate(-C1),near(C1,U),not(C1==U) ? 
-                                                                                |                               |       +--yes: [neg] 2.0 [[pos:0.0,neg:2.0]]
-                                                                                |                               |       +--no:  near(U,-D1),not(U==D1) ? 
-                                                                                |                               |               +--yes: action(near,U,V),not(U==V) ? 
-                                                                                |                               |               |       +--yes: [pos] 32.0 [[pos:32.0,neg:0.0]]
-                                                                                |                               |               |       +--no:  [neg] 3.0 [[pos:0.0,neg:3.0]]
-                                                                                |                               |               +--no:  action(near,U,V),not(U==V) ? 
-                                                                                |                               |                       +--yes: [neg] 1.0 [[pos:0.0,neg:1.0]]
-                                                                                |                               |                       +--no:  [pos] 34.0 [[pos:34.0,neg:0.0]]
-                                                                                |                               +--no:  fork(-E1),not_near(E1,U),not(E1==U) ? 
-                                                                                |                                       +--yes: action(near,E1,V),not(E1==V) ? 
-                                                                                |                                       |       +--yes: plate(-F1),near(F1,E1),not(F1==E1) ? 
-                                                                                |                                       |       |       +--yes: [neg] 12.0 [[pos:0.0,neg:12.0]]
-                                                                                |                                       |       |       +--no:  fork(-G1),near(G1,V),not(G1==V) ? 
-                                                                                |                                       |       |               +--yes: [neg] 3.0 [[pos:0.0,neg:3.0]]
-                                                                                |                                       |       |               +--no:  fork(-H1),near(H1,U),not(H1==U) ? 
-                                                                                |                                       |       |                       +--yes: [neg] 3.0 [[pos:0.0,neg:3.0]]
-                                                                                |                                       |       |                       +--no:  near(-I1,-J1),not(I1==J1) ? 
-                                                                                |                                       |       |                               +--yes: bowl(J1),not_near(J1,V),not(J1==V) ? 
-                                                                                |                                       |       |                               |       +--yes: near(E1,-K1),not(E1==K1) ? 
-                                                                                |                                       |       |                               |       |       +--yes: [neg] 2.0 [[pos:0.0,neg:2.0]]
-                                                                                |                                       |       |                               |       |       +--no:  [pos] 42.0 [[pos:40.0,neg:2.0]]
-                                                                                |                                       |       |                               |       +--no:  bowl(J1) ? 
-                                                                                |                                       |       |                               |               +--yes: near(E1,-L1),not(E1==L1) ? 
-                                                                                |                                       |       |                               |               |       +--yes: [pos] 40.0 [[pos:39.0,neg:1.0]]
-                                                                                |                                       |       |                               |               |       +--no:  [pos] 38.0 [[pos:37.0,neg:1.0]]
-                                                                                |                                       |       |                               |               +--no:  [pos] 10.0 [[pos:10.0,neg:0.0]]
-                                                                                |                                       |       |                               +--no:  cup(-M1) ? 
-                                                                                |                                       |       |                                       +--yes: [pos] 11.0 [[pos:10.0,neg:1.0]]
-                                                                                |                                       |       |                                       +--no:  [pos] 13.0 [[pos:10.0,neg:3.0]]
-                                                                                |                                       |       +--no:  [neg] 3.0 [[pos:0.0,neg:3.0]]
-                                                                                |                                       +--no:  plate(-N1),not_near(N1,V),not(N1==V) ? 
-                                                                                |                                               +--yes: [pos] 6.0 [[pos:5.0,neg:1.0]]
-                                                                                |                                               +--no:  [pos] 7.0 [[pos:7.0,neg:0.0]]
-                                                                                +--no:  [pos] 24.0 [[pos:24.0,neg:0.0]]
+plate(-A),near(A,-B),done,A\==B ? 
++--yes: ??
++--no:  fork(-C),plate(-D),not_near(C,D),action(near,C,D),C\==D ? 
+        +--yes: ??
+        +--no:  fork(-E),not_west(E,-F),action(west,E,F),E\==F ? 
+                +--yes: ??
+                +--no:  cup(-G),fork(-H),near(G,H),action(east,H,G),G\==H ? 
+                        +--yes: ??
+                        +--no:  fork(-I),plate(-J),not_east(I,J),action(east,I,J),I\==J ? 
+                                +--yes: ??
+                                +--no:  cup(-K),fork(-L),east(K,L),done,K\==L ? 
+                                        +--yes: ??
+                                        +--no:  fork(-M),fork(-N),east(M,N),action(east,N,M),M\==N ? 
+                                                +--yes: ??
+                                                +--no:  fork(-O),plate(-P),west(O,P),action(south,O,P),O\==P ? 
+                                                        +--yes: ??
+                                                        +--no:  [neg] 1582.0 [[pos:0.0,neg:1582.0]]

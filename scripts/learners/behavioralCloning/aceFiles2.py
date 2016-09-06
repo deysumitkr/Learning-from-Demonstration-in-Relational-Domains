@@ -81,17 +81,17 @@ class AceFiles:
 
 		## with Action
 
-		for ar in regions:
+		for ar in regions + ['not_'+x for x in regions]:
 			rmode.append('action(#['+ar+'], +-X, +-Y), not(X==Y)')
 
-		for ar in regions:
+		for ar in regions + ['not_'+x for x in regions]:
 			for obj in objects:
 				rmode.append(obj+'(+-X), ' + 'action(#['+ar+'], X, +-Y), X\==Y')
 				rmode.append(obj+'(+-Y), ' + 'action(#['+ar+'], +-X, Y), X\==Y')
 				rmode.append('not_'+obj+'(+-X), ' + 'action(#['+ar+'], X, +-Y), X\==Y')
 				rmode.append('not_'+obj+'(+-Y), ' + 'action(#['+ar+'], +-X, Y), X\==Y')
 
-		for ar in regions:
+		for ar in regions + ['not_'+x for x in regions]:
 			for obj1 in objects:
 				for obj2 in objects:
 					rmode.append(obj1+'(+-X), ' + obj2+'(+-Y), ' + 'action(#['+ar+'], X, Y), X\==Y')
@@ -99,7 +99,7 @@ class AceFiles:
 					rmode.append(obj1+'(+-X), ' + 'not_'+obj2+'(+-Y), ' + 'action(#['+ar+'], X, Y), X\==Y')
 					rmode.append('not_'+obj1+'(+-X), ' + 'not_'+obj2+'(+-Y), ' + 'action(#['+ar+'], X, Y), X\==Y')
 
-		for ar in regions:
+		for ar in regions + ['not_'+x for x in regions]:
 			for obj in objects:
 				for reg in regions:
 					rmode.append(obj+'(+-X), ' + reg+'(X,+-Y), ' + 'action(#['+ar+'], X, Y), X\==Y')
@@ -123,7 +123,7 @@ class AceFiles:
 					rmode.append('not_'+obj+'(+-Y), ' + 'not_'+reg+'(+-X,Y), ' + 'action(#['+ar+'], Y, X), X\==Y')
 
 
-		for ar in regions:
+		for ar in regions + ['not_'+x for x in regions]:
 			for obj1 in objects:
 				for obj2 in objects:
 					for reg in regions:

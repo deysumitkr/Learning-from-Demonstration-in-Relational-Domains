@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+
 import math
 import threading
 import rospy
@@ -6,7 +7,9 @@ from std_msgs.msg import String
 from ar_track_alvar_msgs.msg import AlvarMarkers
 import best_action_irl as irl
 import best_action_bc as bc
+from relational import RelationalWorld
 
+"""
 class RelationalWorld:
  
      def __init__(self, state, names, regions):
@@ -30,7 +33,7 @@ class RelationalWorld:
 
      def eucledian(self, x, y):
          return math.sqrt((x[0]-y[0])**2 + (x[1]-y[1])**2) 
-
+"""
 
 class Interface:
 
@@ -49,7 +52,6 @@ class Interface:
         print """
         p       : print current state
         a       : get Action
-        p       : print current state
         n       : name objects
         v       : view object names
         h       : shows this information

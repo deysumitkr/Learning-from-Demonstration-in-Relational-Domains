@@ -126,6 +126,8 @@ class Interface:
                 fname = raw_input('(Enter the name of file to save) >> ')
                 if fname[-2:] != '.p':
                     fname += '.p'
+                if fname[:3] != 'db/' and fname[:5] != './db/':
+                    fname = 'db/'+fname
                 self.recorder.save(self.names, fname)
 
             elif key == 'h' or key == 'H':
@@ -143,7 +145,7 @@ class TagPose:
 
     def __init__(self, hci):
         #self.listener()
-		self.hci = hci
+        self.hci = hci
 	
 
     def callback(self, data):
