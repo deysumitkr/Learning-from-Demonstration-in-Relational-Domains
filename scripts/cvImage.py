@@ -23,7 +23,8 @@ class image_converter:
   Fy = 538.3821700365565
   Tag_size = 0.022 #in meters
 
-  def __init__(self):
+  def __init__(self, args):
+    self.args = args
     self.image_pub = rospy.Publisher("image_topic_2",Image)
 
     self.bridge = CvBridge()
@@ -46,26 +47,16 @@ class image_converter:
     except CvBridgeError as e:
       print(e)
 
-
     (rows,cols,channels) = cv_image.shape
     if cols > 60 and rows > 60 :
       if self.POS[0] > 0:
-        """
-        for id in self.POS[1].keys():
-            x = self.POS[1][id][0]
-            y = self.POS[1][id][1]
-            z = self.POS[1][id][2]
-            if z > 0:
-                u = int((float(x)/z)*self.Fx + self.Tx); v = int((float(y)/z)*self.Fy + self.Ty);
-                ur = int((float(x+self.Tag_size)/z)*self.Fx + self.Tx); vr = int((float(y+self.Tag_size)/z)*self.Fy + self.Ty);
-                radius = int(math.sqrt((u-ur)**2 + (v-vr)**2))
-                cv2.circle(cv_image, (u, v), radius, (0, 255, 255), 6)
-                cv2.putText(cv_image,"Hello World!!!", (u,v+radius), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255))
-        """
-        if self.UI.update(cv_image, self.POS[1]):
-            #rospy.on_shutdown(self.destructor)
-            rospy.signal_shutdown("Aborted by user")
         self.POS[0] -= 1
+      else:
+        self.POS[1] = {}
+
+      if self.UI.update(cv_image, self.POS[1], self.args):
+        #rospy.on_shutdown(self.destructor)
+        rospy.signal_shutdown("Aborted by user")
 
     #cv2.imshow("Image window", cv_image)
     #cv2.waitKey(3)
@@ -73,7 +64,10 @@ class image_converter:
     try:
       self.image_pub.publish(self.bridge.cv2_to_imgmsg(cv_image, "bgr8"))
     except CvBridgeError as e:
+      print '[Publishing Exception Caught]:'
       print(e)
+    except:
+        print "Unknown exception caught while publishing image"
 
 
 def callback_tag(data):
@@ -89,7 +83,7 @@ def callback_tag(data):
 
 
 def main(args):
-  ic = image_converter()
+  ic = image_converter(args)
   rospy.init_node('image_converter', anonymous=True)
         
   #rospy.Subscriber("ar_pose_marker", String, callback)

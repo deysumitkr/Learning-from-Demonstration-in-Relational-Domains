@@ -111,7 +111,6 @@ def loadDB():
 if __name__=='__main__':
 
 	db = loadDB()
-	#regions = ['near']
 	regions = RelationalWorld.region_names
 	kb = []
 
@@ -125,7 +124,7 @@ if __name__=='__main__':
 				pass
 			middleware = []
 			for i in range(len(dem)):
-				R = RelationalWorld(dem[i], session[0], regions)
+				R = RelationalWorld(dem[i], session[0])
 				id = None
 				if i < len(dem)-1:
 					id = activeId(dem[i], dem[i+1])

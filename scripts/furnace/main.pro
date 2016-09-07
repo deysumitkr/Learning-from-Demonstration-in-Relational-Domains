@@ -1,22 +1,26 @@
 
 :- dynamic
         action/3,
-	bottle/1,
 	bowl/1,
 	cup/1,
 	done/0,
+	east/2,
 	fork/1,
-	mug/1,
 	near/2,
-	not_bottle/1,
+	north/2,
 	not_bowl/1,
 	not_cup/1,
+	not_east/2,
 	not_fork/1,
-	not_mug/1,
 	not_near/2,
+	not_north/2,
 	not_plate/1,
+	not_south/2,
+	not_west/2,
 	object/1,
-	plate/1.
+	plate/1,
+	south/2,
+	west/2.
 
 :- initialization(main).
  
@@ -29,20 +33,18 @@ pops([H|T]):-
         write(H),
         pops(T). 
 
-mug(0).
-bottle(2).
-fork(3).
+fork(1).
 plate(4).
-plate(5).
-fork(7).
-near(0, 5).
-near(3, 4).
-near(4, 3).
-near(4, 5).
-near(5, 0).
-near(5, 4).
-near(5, 7).
-near(7, 5).
+not_near(1, 4).
+not_north(1, 4).
+not_east(1, 4).
+west(1, 4).
+not_south(1, 4).
+not_near(4, 1).
+not_north(4, 1).
+east(4, 1).
+not_west(4, 1).
+not_south(4, 1).
 done.
 
 

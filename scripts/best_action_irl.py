@@ -1,5 +1,6 @@
 import tilde
 import subprocess
+from progressBar import ProgressBar
 
 class Reward:
 
@@ -8,6 +9,9 @@ class Reward:
         self.rsa = {}
         self.regions = regions
         self.names = names
+
+        p = ProgressBar(len(actionList), 'Querying', 'Complete')
+        p.show(0)
         for act in actionList:
             ns = self.nextStates(state, act)
             nextqsa = 0
@@ -18,6 +22,7 @@ class Reward:
             qsa = self.getQsa(state, act)
             rw = qsa - discountFactor*(1./float(len(ns)))*nextqsa
             self.rsa[act] = rw
+            p.show(actionList.index(act)+1)
 
     def argmax(self, s, A):
         qsa = [None, -1]
@@ -52,6 +57,7 @@ class Reward:
         for s in state:
             if len(s.split(','))>1:
                 if (Om == s.split('(')[1].split(', ')[0].strip()) or (Om == s.split(',')[1].split(')')[0].strip()):
+                # If active obeject is in a relational fact, we preserve it in list L
                     L.append(s)
 
         NS = [[x for x in state if x not in L] + [self.act2state(action)]]

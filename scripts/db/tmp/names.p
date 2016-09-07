@@ -1,8 +1,14 @@
 (dp0
 I8
-S'plate'
+S'fork'
 p1
-sI7
-S'cup'
+sI1
+S'fork'
 p2
+sI4
+S'plate'
+p3
+sI7
+S'plate'
+p4
 s.
