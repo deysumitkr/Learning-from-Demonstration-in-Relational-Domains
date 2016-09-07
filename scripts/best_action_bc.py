@@ -12,7 +12,7 @@ class ActionCloning:
         self.goodActions = []
         for act in actionList: 
             label = self.getAction(state, act)
-            print act, label
+            #print act, label
             if label == 'pos':
                 self.goodActions.append(act)
         

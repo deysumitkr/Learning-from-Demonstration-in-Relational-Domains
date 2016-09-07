@@ -1,5 +1,11 @@
 import math
 
+# [NOTE]
+# To add new relations:
+# 1) define relation in this file
+# 2) declare name of relation in list region_names within class RelationalWorld (relational.py)
+# 3) add relevant condition in function createState within class RelationalWorld (relational.py)
+
 _NEAR_THRESHOLD = 80.0
 _EAST_WEST_BUFFER_DIST = _NEAR_THRESHOLD/2.0
 _NORTH_SOUTH_BUFFER_DIST = _NEAR_THRESHOLD/2.0
@@ -15,7 +21,7 @@ def west(p1, p2):
 	return True if ((p2[0] - p1[0]) > _EAST_WEST_BUFFER_DIST) else False
 
 def north(p1, p2):
-	return True if ((p1[1] - p2[1]) > _NORTH_SOUTH_BUFFER_DIST) else False
+	return True if ((p2[1] - p1[1]) > _NORTH_SOUTH_BUFFER_DIST) else False
 
 def south(p1, p2):
-	return True if ((p2[1] - p1[1]) > _NORTH_SOUTH_BUFFER_DIST) else False
+	return True if ((p1[1] - p2[1]) > _NORTH_SOUTH_BUFFER_DIST) else False

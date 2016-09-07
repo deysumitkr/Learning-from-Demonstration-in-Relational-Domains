@@ -1,0 +1,14 @@
+(dp0
+I8
+S'fork'
+p1
+sI1
+S'fork'
+p2
+sI4
+S'plate'
+p3
+sI7
+S'plate'
+p4
+s.

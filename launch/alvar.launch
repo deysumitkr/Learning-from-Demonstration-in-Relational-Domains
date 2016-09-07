@@ -11,7 +11,7 @@
 
 	<node pkg="tf" type="static_transform_publisher" name="world_to_camera" output="screen" args="0 0 0 0 0 0 world camera 10" />
 
-	<node pkg="rviz" type="rviz" name="rviz" />
+	<!-- <node pkg="rviz" type="rviz" name="rviz" /> -->
 
 </launch>
 
