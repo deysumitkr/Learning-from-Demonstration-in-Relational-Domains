@@ -2,6 +2,12 @@ import pickle
 import os
 import math
 
+import os, sys
+lib_path = os.path.abspath(os.path.join('..', 'scripts'))                                                                                       
+sys.path.append(lib_path)
+from relational import RelationalWorld
+
+"""
 class RelationalWorld:
 
     def __init__(self, state, names, regions):
@@ -19,7 +25,7 @@ class RelationalWorld:
         obj = state.keys()
         actions = ['action('+str(r)+', '+str(i)+', '+str(j)+')' for r in regions for i in obj for j in obj if i != j]
         self.possibleActions = actions+['done']
-
+"""
 
 def act2state(act):
     r = act.split('(')[1].split(', ')[0].strip()
